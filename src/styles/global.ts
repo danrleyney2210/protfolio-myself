@@ -85,7 +85,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 1px solid ${ props => props.theme.color_primary };
     transition: ${ props => props.theme.transition };
 
-    & hover {
+    &:hover {
       background-color: ${ props => props.theme.color_white };
       color: ${ props => props.theme.color_bg };
       border-color: transparent;
