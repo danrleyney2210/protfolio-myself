@@ -48,7 +48,6 @@ export const GlobalStyle = createGlobalStyle`
 
   section {
     margin-top: 8rem;
-    height: 100vh;
 
     h2, h5 {
       text-align: center;;
