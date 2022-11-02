@@ -97,9 +97,10 @@ export const GlobalStyle = createGlobalStyle`
 
   }
 
-  .img {
+  img{
     display: block;
     width: 100%;
+    justify-content: center;
     object-fit: cover;
   }
 
