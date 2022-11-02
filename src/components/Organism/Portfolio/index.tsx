@@ -1,8 +1,9 @@
 import React from 'react'
+import * as S from './styles'
 
 export const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <S.Wrapper id='portfolio'>Portfolio</S.Wrapper>
   )
 }
 

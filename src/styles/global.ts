@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
-  
   html {
     scrroll-behavior: smooth;
   }
@@ -39,9 +38,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
   }
 
-  h1, h2,h3,h4,h5,p,span {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+  h1, h2,h3,h4,h5 {
+    font-weight: 500;
   }
   
   h1 {
@@ -50,6 +48,7 @@ export const GlobalStyle = createGlobalStyle`
 
   section {
     margin-top: 8rem;
+    height: 100vh;
 
     h2, h5 {
       text-align: center;;
@@ -70,7 +69,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${ props => props.theme.color_primary };
     transition: ${ props => props.theme.transition };
 
-    & hover {
+    &:hover {
       color: ${ props => props.theme.color_white };
     }
   }

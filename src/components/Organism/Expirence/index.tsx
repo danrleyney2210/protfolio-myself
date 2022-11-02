@@ -3,7 +3,7 @@ import * as S from './styles'
 
 export const Expirence = () => {
   return (
-    <div>Expirence</div>
+    <S.Wrapper id='experience'>Expirence</S.Wrapper>
   )
 }
 

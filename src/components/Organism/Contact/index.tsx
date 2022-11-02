@@ -1,8 +1,9 @@
 import React from 'react'
+import * as S from './styles'
 
 export const Contact = () => {
   return (
-    <div>Contact</div>
+    <S.Wrapper>Contact</S.Wrapper>
   )
 }
 

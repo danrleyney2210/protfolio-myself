@@ -2,6 +2,7 @@ import React from 'react'
 import { Cta } from '../../Molecules/Cta'
 import * as S from './styles'
 import ME from '../../../assets/me.png'
+import { HeaderSocial } from '../../Molecules/HeaderSocial'
 
 export const Header = () => {
   return (
@@ -11,12 +12,11 @@ export const Header = () => {
         <h1>Danrley Ney</h1>
         <h5 className='text-alight'>Full stack Developer </h5>
         <Cta />
-
+        <HeaderSocial />
         <div className='me'>
           <img src={ME} alt="" />
         </div>
-
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </S.HeaderContainer>
     </S.Wrapper>
   )

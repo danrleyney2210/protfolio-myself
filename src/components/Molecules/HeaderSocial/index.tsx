@@ -1,13 +1,25 @@
 import React from 'react'
 import * as S from './styles'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
+import { BsDiscord } from 'react-icons/bs'
+import { GrInstagram } from 'react-icons/gr'
 
 export const HeaderSocial = () => {
   return (
     <S.Wrapper>
-      <a href="https://linkdin.com" target="_black"></a>
-      <a href="https://github.com" target="_black"></a>
-      <a href="https://linkdin.com" target="_black"></a>
-      <a href="https://dribble.com" target="_black"></a>
+      <a href="https://linkdin.com" target="_black">
+        <BsLinkedin />
+      </a>
+      <a href="https://github.com" target="_black">
+        <FaGithub />
+      </a>
+      <a href="https://discord.com" target="_black">
+        <BsDiscord />
+      </a>
+      <a href="https://instagram.com" target="_black">
+        <GrInstagram />
+      </a>
     </S.Wrapper>
   )
 }
