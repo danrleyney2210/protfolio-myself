@@ -12,11 +12,11 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
-  html {
-    scrroll-behavior: smooth;
+  html{
+    scroll-behavior: smooth;
   }
-  
-  ::-webkit-scrollbar{
+
+::-webkit-scrollbar{
     display: none;
   }
   
