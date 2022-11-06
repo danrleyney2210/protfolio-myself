@@ -45,6 +45,22 @@ export const About = () => {
             facilis.
           </p>
 
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium nesciunt doloremque similique eius quibusdam voluptatem
+            asperiores. Iure quas animi recusandae, ducimus consequuntur amet
+            cupiditate repellendus, neque commodi, voluptatibus distinctio
+            facilis.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium nesciunt doloremque similique eius quibusdam voluptatem
+            asperiores. Iure quas animi recusandae, ducimus consequuntur amet
+            cupiditate repellendus, neque commodi, voluptatibus distinctio
+            facilis.
+          </p>
+
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </S.AboutContainer>

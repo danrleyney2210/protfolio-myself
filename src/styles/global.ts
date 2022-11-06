@@ -1,4 +1,4 @@
-import { createGlobalStyle  } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     scrroll-behavior: smooth;
   }
   
-  ::-webkit-scrollbar {
+  ::-webkit-scrollbar{
     display: none;
   }
   
@@ -27,14 +27,14 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background-color: ${ props => props.theme.color_bg  };
-    color: ${ props => props.theme.color_white };
+    background-color: ${(props) => props.theme.color_bg};
+    color: ${(props) => props.theme.color_white};
     line-height: 1.7;
     background-image: url('../../src/assets/bg-texture.png');
   }
 
   .container {
-    width: ${ props => props.theme.container_width_lg };
+    width: ${(props) => props.theme.container_width_lg};
     margin: 0 auto;
   }
 
@@ -51,48 +51,48 @@ export const GlobalStyle = createGlobalStyle`
 
     h2, h5 {
       text-align: center;;
-      color: ${ props => props.theme.color_light}
+      color: ${(props) => props.theme.color_light}
     }
 
     h2 {
-      color: ${ props => props.theme.color_primary };
+      color: ${(props) => props.theme.color_primary};
       margin-bottom: 3rem;
     }
   }
 
   .text-alight {
-    color: ${ props => props.theme.color_light };
+    color: ${(props) => props.theme.color_light};
   }
 
   a {
-    color: ${ props => props.theme.color_primary };
-    transition: ${ props => props.theme.transition };
+    color: ${(props) => props.theme.color_primary};
+    transition: ${(props) => props.theme.transition};
 
     &:hover {
-      color: ${ props => props.theme.color_white };
+      color: ${(props) => props.theme.color_white};
     }
   }
 
   .btn {
     width: max-content;
     display: inline-block;
-    color: ${ props => props.theme.color_primary };
+    color: ${(props) => props.theme.color_primary};
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid ${ props => props.theme.color_primary };
-    transition: ${ props => props.theme.transition };
+    border: 1px solid ${(props) => props.theme.color_primary};
+    transition: ${(props) => props.theme.transition};
 
     &:hover {
-      background-color: ${ props => props.theme.color_white };
-      color: ${ props => props.theme.color_bg };
+      background-color: ${(props) => props.theme.color_white};
+      color: ${(props) => props.theme.color_bg};
       border-color: transparent;
     }
   }
 
   .btn-primary {
-    background-color: ${ props => props.theme.color_primary };
-    color: ${ props => props.theme.color_bg };
+    background-color: ${(props) => props.theme.color_primary};
+    color: ${(props) => props.theme.color_bg};
 
   }
 
@@ -105,7 +105,7 @@ export const GlobalStyle = createGlobalStyle`
 
   @media screen and ( max-width: 1024px ) {
     .container {
-      width: ${ props => props.theme.container_width_md };
+      width: ${(props) => props.theme.container_width_md};
     }
 
     section {
@@ -115,7 +115,7 @@ export const GlobalStyle = createGlobalStyle`
 
   @media screen and ( max-width: 600px ) {
     .container {
-      width: ${ props => props.theme.container_width_sm };
+      width: ${(props) => props.theme.container_width_sm};
     }
 
     section {

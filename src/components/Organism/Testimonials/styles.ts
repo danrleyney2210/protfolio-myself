@@ -30,16 +30,12 @@ export const Wrapper = styled.section`
       margin: 0.8rem auto 0;
     }
   }
-
-  /* .swiper-pagination-clickable , .swiper-pagination-bullet{
-    background-color: ${ props => props.theme.color_bg };
-  } */
-
-
-    
-
-
   
+  .swiper-pagination-clickable {
+    .swiper-pagination-bullet {
+      background-color: ${ props => props.theme.color_primary };
+    }
+  }
 
   @media (max-width: 1024px) {
     width: 60%;

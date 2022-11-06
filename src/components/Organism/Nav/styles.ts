@@ -27,12 +27,10 @@ export const Link = styled.a<ILinkProps>`
   border-radius: 50%;
   display: flex;
   color: ${ (props) => props.isActive ? props.theme.color_white : props.theme.color_light };
-  background-color: ${ (props) => props.isActive ? props.theme.color_bg : 'transparent' };
+  background-color: ${ (props) => props.isActive ? props.theme.color_primary : 'transparent' };
   font-size: 1.1rem;
 
-
-
   &:hover {
-    background-color: rgba(0,0,0, 0.2);
+    /* background-color: rgba(0,0,0, 0.2); */
   }
 `

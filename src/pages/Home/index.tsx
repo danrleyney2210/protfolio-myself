@@ -2,6 +2,7 @@ import React from 'react'
 import { About } from '../../components/Organism/About'
 import { Contact } from '../../components/Organism/Contact'
 import { Expirence } from '../../components/Organism/Expirence'
+import { Footer } from '../../components/Organism/Footer'
 import { Header } from '../../components/Organism/Header'
 import { Nav } from '../../components/Organism/Nav'
 import { Portfolio } from '../../components/Organism/Portfolio'
@@ -19,7 +20,7 @@ export const Home = () => {
       <Portfolio />
       <Testimonials />
       <Contact />
-      <footer />
+      <Footer />
     </>
   )
 }
