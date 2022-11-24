@@ -18,6 +18,7 @@ export const HeaderContainer = styled.div`
   text-align: center;
   height: 100%;
   position: relative;
+ 
 
   .me {
     background: linear-gradient(${ props => props.theme.color_primary }, transparent);
@@ -46,9 +47,24 @@ export const HeaderContainer = styled.div`
   }
 
   @media(max-width: 600px) {
-    .scroll__down {
-      display: none;
+    .me {
+      width: 18rem;
+      margin-left: 40px;
+      /* height: 30rem; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin: 0 auto; */
+
+      img {
+        width: 220px;
+        height: 220px;
+      }
     }
+
+    .scroll__down {
+      /* display: none; */
+    } 
   }
 
 `
