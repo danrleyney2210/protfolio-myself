@@ -44,10 +44,10 @@ export const About = () => {
           </p>
 
           <p>
-            Fiz graduação em Ciência da computação, e logo em seguinda Mestrado
+            Fiz graduação em Ciência da computação, logo após Mestrado
             em Engenharia de Computadores e sistema pela Universidade Estadual
-            do Marnahão. Larguei o Doutorado e a sala de aula para dedicar-me e
-            focar 100% em engenharia de Software e inteligência artificial.
+            do Marnahão - UEMA. Fui profesor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e
+            focar 100% em engenharia de Software.
           </p>
 
           <p>
