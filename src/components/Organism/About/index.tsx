@@ -46,7 +46,7 @@ export const About = () => {
           <p>
             Fiz graduação em Ciência da computação, logo após Mestrado
             em Engenharia de Computadores e sistema pela Universidade Estadual
-            do Marnahão - UEMA. Fui profesor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e
+            do Maranhão - UEMA. Fui professor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e
             focar 100% em engenharia de Software.
           </p>
 
