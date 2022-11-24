@@ -26,8 +26,8 @@ export const Contact = () => {
 
   return (
     <S.Wrapper id='contact'>
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Vamos Conversar!</h5>
+      <h2>Contato</h2>
 
       <S.ContactContianer className="container">
         <div className="contact_options">
@@ -42,22 +42,22 @@ export const Contact = () => {
             <RiMessengerLine className='contact_option_icon' />
             <h4>Menssager</h4>
             <h5>danrley.dev@gmail.com</h5>
-            <a href="emailto:danrley.dev@gmail.com" target="_blank">Send a menssage</a>
+            <a href="mailto:danrley.dev@gmail.com" target="_blank">Send a menssage</a>
           </article>
 
           <article className="contact_option">
             <BsWhatsapp className='contact_option_icon' />
             <h4>Whatsapp</h4>
             <h5>+55 86 998192450</h5>
-            <a href="https://api.whatsapp.com/send?phone+5586998192450" target="_blank">Send a menssage</a>
+            <a href="https://contate.me/danrley-ney" target="_blank">Send a menssage</a>
           </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" id="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <input type="text" name='name' placeholder='Seu Nome' required />
+          <input type="email" name='email' placeholder='Seu Email' required />
+          <textarea name="message" id="7" placeholder='Sua Mensagem' required></textarea>
+          <button type='submit' className='btn btn-primary'>Enviar mensagem</button>
         </form>
       </S.ContactContianer>
 

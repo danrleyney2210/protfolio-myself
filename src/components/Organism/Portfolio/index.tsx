@@ -1,68 +1,81 @@
 import React from "react";
+import { AiOutlineStop } from 'react-icons/ai'
 import * as S from "./styles";
-import IMG1 from "../../../assets/portfolio1.jpg";
-import IMG2 from "../../../assets/portfolio2.jpg";
-import IMG3 from "../../../assets/portfolio3.jpg";
-import IMG4 from "../../../assets/portfolio4.jpg";
-import IMG5 from "../../../assets/portfolio5.png";
+import IMG1 from "../../../assets/openSolo.png";
+import IMG2 from "../../../assets/neo.png";
+import IMG3 from "../../../assets/justravel.png";
+import IMG4 from "../../../assets/neural.png";
+import IMG5 from "../../../assets/finance.png";
+import IMG6 from "../../../assets/view.png";
 
 interface IDataProps {
   id: number,
   image: any,
   title: string,
-  github: string,
-  demo: string
+  github?: string,
+  dscription?: string
+  status?: string
+  demo?: string
 }
 
 const data: IDataProps[] = [
   {
     id: 1,
     image: IMG1,
-    title: "Google Clone",
-    github: "https://github.com/Mardoqueu/google-v1",
-    demo: "https://google-v1-teal.vercel.app/",
+    title: "Open Solo",
+    dscription: 'Construibição como um dos desenvolvedores deste projeto.',
+    demo: "https://app.opensolo.com/login",
+    status: 'Produção'
   },
   {
     id: 2,
     image: IMG2,
-    title: "Movie App",
-    github: "https://github.com/Mardoqueu/movie-app-v1",
-    demo: "https://movie-app-v1-tawny.vercel.app/",
+    title: "Neo estech",
+    dscription: 'Construibição como um dos desenvolvedores deste projeto.',
+    demo: "https://app.neoestech.com.br/auth/login",
+    status: 'Produção'
   },
   {
     id: 3,
     image: IMG3,
-    title: "Instagram Clone",
-    github: "https://github.com/Mardoqueu/insta-v",
-    demo: "https://insta-vercel.vercel.app/",
+    title: "Just Travel",
+    dscription: 'Desafio realizado para empresa Just Travel para vagas de front-end develop.',
+    github: "https://github.com/danrleyney2210/challenge_logoipsum",
+    demo: "https://challenge-logoipsum.vercel.app/",
+    status: 'Live Demo'
   },
   {
     id: 4,
     image: IMG4,
-    title: "Twitter Clone",
-    github: "https://github.com/Mardoqueu/twitter",
-    demo: "https://twitter-peach.vercel.app/",
+    title: "Redes Neurais",
+    dscription: 'Trabalho desenvolvido no programa de mestrado em engenharia de Computadores e sistemas.',
+    github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
+    status: 'Produção'
   },
   {
     id: 5,
     image: IMG5,
-    title: "Help-desk Frontend",
-    github: "https://github.com/Mardoqueu/helpdesk-front",
-    demo: "https://helpdesk-front-tawny.vercel.app/login",
+    title: "dev finance",
+    dscription: 'Aplicação desenvolvida para fins educativos utilizando boas práticas',
+    github: "https://github.com/danrleyney2210/dev.finances-maratona-discover",
+    demo: "https://dev-finances-maratona-discover.vercel.app/",
+    status: 'Live Demo'
   },
   {
     id: 6,
-    image: IMG5,
-    title: "Help-desk Backend API",
-    github: "https://github.com/Mardoqueu/helpdesk-backend",
-    demo: "https://tindog-lake.vercel.app/",
+    image: IMG6,
+    title: "Landing Page",
+    dscription: 'Projeto desenvolvido para captação de leads e conversão.',
+    github: "https://github.com/danrleyney2210/landing-page-01/tree/master",
+    demo: "https://metodo-mais-views.vercel.app/",
+    status: 'Live Demo'
   },
 ];
 
 export const Portfolio = () => {
   return (
     <S.Wrapper id="portfolio">
-      <h5>Mu Recent Work</h5>
+      <h5>Trabalhos e projetos desenvolvidos</h5>
       <h2>Portfólio</h2>
 
       <S.PortfolioContainer className="container">
@@ -71,18 +84,40 @@ export const Portfolio = () => {
             <div className="portfolio_item_image">
               <img src={item.image} alt={item.title} />
             </div>
-            <h3>{item.title}</h3>
+            <div className="content_description">
+              <h3>{item.title}</h3>
+              <p>{item.dscription}</p>
+            </div>
             <div className="portfolio_item_cta">
-              <a href={item.github} className="btn" target="_blank">
-                Github
-              </a>
-              <a
-                href={item.demo}
-                className="btn btn-primary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
+              {
+                item.github  ? (
+                  <a href={item.github} className="btn" target={'_blank'}>Github</a>
+                ) : (
+                  <S.LinkProject>
+                    Github
+                    <AiOutlineStop />
+                  </S.LinkProject>
+                )
+              }
+
+              {
+                item.demo ? (
+                  <a
+                    href={item.demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    {item.status}
+                  </a>
+                ) : (
+                  <S.LinkProject>
+                    {item.status}
+                    <AiOutlineStop />
+                  </S.LinkProject>
+                )
+              }
+              
+              
             </div>
           </article>
         ))}

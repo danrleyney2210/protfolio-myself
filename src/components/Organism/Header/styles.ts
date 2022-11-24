@@ -31,8 +31,9 @@ export const HeaderContainer = styled.div`
     padding: 5rem 1.5rem 1.5rem;
 
     img {
-      /* width: 100%; */
-      /* height: 100%;   */
+      border-radius: 50% ;
+      width: 300px; 
+      height: 300px;  
     }
   }
 

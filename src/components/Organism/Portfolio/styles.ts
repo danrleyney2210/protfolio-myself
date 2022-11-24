@@ -22,6 +22,11 @@ export const PortfolioContainer = styled.div`
     .portfolio_item_image {
       border-radius: 1.5rem;
       overflow: hidden;
+      height: 200px;
+
+      img {
+        height: 100%;
+      }
     }
 
     .portfolio_item_cta {
@@ -30,9 +35,19 @@ export const PortfolioContainer = styled.div`
       margin-bottom: 1rem;
     }
 
-    h3 {
-      margin: 1.2rem 0 2rem;
+    .content_description {
+      margin-top: 1.2rem;
+      margin-bottom: 2rem;
+      h3 {
+        
+      }
+
+      p {
+        font-size: .8rem;
+      }
     }
+
+    
   }
 
 
@@ -47,3 +62,20 @@ export const PortfolioContainer = styled.div`
   }
  
 `
+
+
+
+export const LinkProject = styled.button`
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: ${ (props) => props.theme.color_light };
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: not-allowed;
+  border: 1px solid ${ (props) => props.theme.color_light };
+  transition: ${(props) => props.theme.transition};
+  background-color: transparent;
+`
+

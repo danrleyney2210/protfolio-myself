@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <S.Wrapper>
       <footer>
-        <a href="#" className='footer_logo'>EGATOR</a>
+        <a href="#" className='footer_logo'>DANRLEY</a>
 
         <ul className='permalinks'>
           <li><a href="#">Home</a></li>
@@ -21,9 +21,9 @@ export const Footer = () => {
         </ul>
 
         <div className="footer_social">
-          <a href='https://www.facebook.com/mardoqueu.telvina'><FaFacebookF/></a>
-          <a href='https://www.instagram.com/mardoqueu.sousa/'><FiInstagram/></a>
-          <a href='https://twitter.com/SousaMardoqueu'><FiTwitter/></a>
+          <a href='#'><FaFacebookF/></a>
+          <a href='https://www.instagram.com/danrley_ney/'><FiInstagram/></a>
+          <a href='https://twitter.com/danrleyney'><FiTwitter/></a>
         </div>
 
         <div className='footer_copyright'>

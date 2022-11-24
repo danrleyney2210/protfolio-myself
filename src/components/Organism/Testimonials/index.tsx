@@ -57,8 +57,8 @@ const data: IDataProps[] = [
 export const Testimonials = () => {
   return (
     <S.Wrapper id="testimonials">
-      <h5>Review from Client</h5>
-      <h2>Testimonials</h2>
+      <h5>Indicações</h5>
+      <h2>Recomendações</h2>
 
       <Swiper className='container testimonials_container'
             modules={[Pagination]}

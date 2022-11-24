@@ -8,13 +8,13 @@ import { GrInstagram } from 'react-icons/gr'
 export const HeaderSocial = () => {
   return (
     <S.Wrapper>
-      <a href="https://linkdin.com" target="_black">
+      <a href="https://www.linkedin.com/in/danrley-ney/" target="_black">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_black">
+      <a href="https://github.com/danrleyney2210" target="_black">
         <FaGithub />
       </a>
-      <a href="https://discord.com" target="_black">
+      <a href="https://discord.com/" target="_black">
         <BsDiscord />
       </a>
       <a href="https://instagram.com" target="_black">
