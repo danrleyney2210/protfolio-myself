@@ -32,7 +32,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>React Js</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">Intermediário</small>
               </div>
             </article>
 
@@ -40,7 +40,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Typescript</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">Intermediário</small>
               </div>
             </article>
 
@@ -97,6 +97,13 @@ export const Expirence = () => {
               <div>
                 <h4>Sass</h4>
                 <small className="text-light">Avançado</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <AiFillCheckCircle className="experience_details_icon" />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Intermediário</small>
               </div>
             </article>
           </div>
