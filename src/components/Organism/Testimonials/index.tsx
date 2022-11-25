@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import AVATAR1 from "../../../assets/mardoque.jpeg";
 import AVATAR2 from "../../../assets/avatar2.jpg";
 import AVATAR3 from "../../../assets/avatar3.jpg";
-import AVATAR4 from "../../../assets/avatar4.jpg";
+import AVATAR4 from "../../../assets/lucas.png";
 
 interface IDataProps {
   avatar: any;
@@ -46,11 +46,11 @@ const data: IDataProps[] = [
   },
   {
     avatar: AVATAR4,
-    name: "Danrley Santos",
+    name: "Lucas Marques",
     occupation:
-      "Software Engineer | Front End | React, React Native, Next.js, Typescript, and Node.js",
+      "Quality Assurance Engineer/Master in Electrical Engineering - UFPI",
     review:
-      "Danrley possui fortes habilidades em programação, lógica de programação e desenvolvimento de aplicações utilizando melhores práticas do mercado. Possui experiência em sala de aula e aptidão em resolver problemas.",
+      "Grande profissional! Além de realizar uma ótima entrega do ponto de vista técnico, estabelece uma boa comunicação e dinâmica para o desenvolvimento do projeto, além de ser um grande desenvolvedor que sempre cumpre as suas metas estabelecidas, Recomendo!",
   },
 ];
 
@@ -72,6 +72,7 @@ export const Testimonials = () => {
               <img src={item.avatar} alt="Avatar One" />
             </div>
             <h5 className="client_name">{item.name}</h5>
+            <span>{item.occupation}</span>
             <small className="client_review">{item.review}</small>
           </SwiperSlide>
       ))}

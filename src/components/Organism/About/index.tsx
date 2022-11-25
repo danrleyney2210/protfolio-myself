@@ -38,7 +38,7 @@ export const About = () => {
             </article>
           </div>
           <p>
-            Meu nome é Danrley Alves dos santos, Nasci em Teresina/PI, já passei
+            Meu nome é Danrley Alves dos santos, nasci em Teresina/PI, já passei
             por algumas empresas como: Maida Health, Max.ia, Healthyou e outros
             trabalhos como freelacer sendo programador.
           </p>

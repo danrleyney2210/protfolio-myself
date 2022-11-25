@@ -22,6 +22,10 @@ export const Wrapper = styled.section`
     border-radius: 2rem;
     user-select: none;
 
+    span {
+      font-size: 12px;
+    }
+
     .client_review {
       color: ${ props => props.theme.color_light};
       font-weight: 300;
