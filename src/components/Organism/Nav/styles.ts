@@ -16,6 +16,24 @@ export const Wrapper = styled.nav`
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+
+  .language-content {
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    background-color: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: -30px;
+    left: 45%;
+    border-radius: 100px 100px 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 10px;
+    }
+  }
 `
 
 interface ILinkProps {

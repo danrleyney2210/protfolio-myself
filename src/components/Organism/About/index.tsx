@@ -38,13 +38,11 @@ export const About = () => {
             </article>
           </div>
           <p>
-            Meu nome é Danrley Alves dos santos, nasci em Teresina/PI, já passei
-            por algumas empresas como: Maida Health, Max.ia, Healthyou e outros
-            trabalhos como freelacer sendo programador.
+            Meu nome é Danrley Alves dos Santos sou de Teresina-PI e possuo larga experiência como programador passando por várias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.
           </p>
 
           <p>
-            Fiz graduação em Ciência da computação, logo após Mestrado
+            Sou graduado em Ciência da computação, logo após fiz Mestrado
             em Engenharia de Computadores e sistema pela Universidade Estadual
             do Maranhão - UEMA. Fui professor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e
             focar 100% em engenharia de Software.

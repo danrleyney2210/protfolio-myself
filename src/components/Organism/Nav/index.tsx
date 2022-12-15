@@ -12,6 +12,9 @@ export const Nav = () => {
 
   return (
     <S.Wrapper>
+      {/* <div className="language-content">
+        <span>PT</span>
+      </div> */}
       <S.Link
         isActive={activeNow == "#" ? true : false}
         onClick={() => setActiveNow("#")}
