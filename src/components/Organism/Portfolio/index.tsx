@@ -4,9 +4,10 @@ import * as S from "./styles";
 import IMG1 from "../../../assets/openSolo.png";
 import IMG2 from "../../../assets/neo.png";
 import IMG3 from "../../../assets/justravel.png";
-import IMG4 from "../../../assets/neural.png";
+import IMG4 from "../../../assets/app00.png";
 import IMG5 from "../../../assets/finance.png";
 import IMG6 from "../../../assets/view.png";
+import IMG7 from "../../../assets/neural.png";
 
 interface IDataProps {
   id: number,
@@ -47,9 +48,9 @@ const data: IDataProps[] = [
   {
     id: 4,
     image: IMG4,
-    title: "Redes Neurais",
-    dscription: 'Trabalho desenvolvido no programa de mestrado em engenharia de Computadores e sistemas.',
-    github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
+    title: "PokeRub",
+    dscription: 'Projeto desenvolvido para desafio a vaga de front-end da empresa Rubcube.',
+    github: "https://github.com/danrleyney2210/rubcube_desafio",
     status: 'Produção'
   },
   {
@@ -70,6 +71,15 @@ const data: IDataProps[] = [
     demo: "https://metodo-mais-views.vercel.app/",
     status: 'Live Demo'
   },
+  {
+    id: 7,
+    image: IMG7,
+    title: "Redes Neurais",
+    dscription: 'Trabalho desenvolvido no programa de mestrado em engenharia de Computadores e sistemas.',
+    github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
+    status: 'Produção'
+  },
+
 ];
 
 export const Portfolio = () => {
@@ -90,7 +100,7 @@ export const Portfolio = () => {
             </div>
             <div className="portfolio_item_cta">
               {
-                item.github  ? (
+                item.github ? (
                   <a href={item.github} className="btn" target={'_blank'}>Github</a>
                 ) : (
                   <S.LinkProject>
@@ -116,8 +126,8 @@ export const Portfolio = () => {
                   </S.LinkProject>
                 )
               }
-              
-              
+
+
             </div>
           </article>
         ))}
