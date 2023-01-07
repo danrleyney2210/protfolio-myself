@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import * as S from './styles'
 import { SlArrowDown } from 'react-icons/sl'
 import { useContextSite } from '../../../context/Context'
@@ -30,7 +30,7 @@ const config = {
 
 export const ChangeLanguage = ({ setIsOpenLanguage, isOpenLanguage }: IProps) => {
 
-  const { language, setLanguage } = useContextSite()
+  const [language, setLanguage] = useState<TypeLanguage>('en')
 
   const handleLanguage = (language: TypeLanguage) => {
     if (language === 'en') {
@@ -46,10 +46,6 @@ export const ChangeLanguage = ({ setIsOpenLanguage, isOpenLanguage }: IProps) =>
     setLanguage(language)
 
   }
-
-  useEffect(() => {
-    console.log(language)
-  }, [language])
 
 
   return (
