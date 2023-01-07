@@ -5,36 +5,38 @@ export const Wrapper = styled.header`
   padding-top: 7rem;
   overflow: hidden;
 
-  @media(max-width: 1024px) {
+  @media (max-width: 1024px) {
     height: 68vh;
   }
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     height: 100vh;
   }
-`
+`;
 
 export const HeaderContainer = styled.div`
   text-align: center;
   height: 100%;
   position: relative;
- 
 
   .me {
-    background: linear-gradient(${ props => props.theme.color_primary }, transparent);
+    background: linear-gradient(
+      ${(props) => props.theme.color_primary},
+      transparent
+    );
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem) ;
+    left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
 
     img {
-      border-radius: 50% ;
-      width: 300px; 
-      height: 300px;  
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
     }
   }
 
@@ -46,7 +48,7 @@ export const HeaderContainer = styled.div`
     font-weight: 200;
   }
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     .me {
       width: 18rem;
       margin-left: 40px;
@@ -64,7 +66,15 @@ export const HeaderContainer = styled.div`
 
     .scroll__down {
       /* display: none; */
-    } 
+    }
   }
+`;
 
-`
+export const OverlayLanguage = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+`;

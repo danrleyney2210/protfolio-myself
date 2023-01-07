@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "i18next": "^22.4.8",
+    "i18next-browser-languagedetector": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.4",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.2",
+    "react-svg": "^15.1.18",
     "styled-components": "^5.3.5",
     "swiper": "^8.4.4"
   },
