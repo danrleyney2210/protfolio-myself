@@ -15,7 +15,7 @@ import { messagesGlobal } from './translate';
 i18n.use(LanguageDetector).init({
   debug: true,
   supportedLngs: ["pt", "es", "en"],
-  fallbackLng: 'pt',
+  fallbackLng: 'en',
   resources: messagesGlobal,
   detection: {
     order: ["localStorage", "cookie"],
