@@ -11,10 +11,11 @@ import i18n from 'i18next'
 import './translate'
 import { messagesGlobal } from './translate';
 
+
 i18n.use(LanguageDetector).init({
   debug: true,
   supportedLngs: ["pt", "es", "en"],
-  lng: 'en',
+  fallbackLng: 'pt',
   resources: messagesGlobal,
   detection: {
     order: ["localStorage", "cookie"],
@@ -27,6 +28,7 @@ i18n.use(LanguageDetector).init({
 
 
 export function App() {
+
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />

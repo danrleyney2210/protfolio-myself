@@ -21,7 +21,7 @@ export const Header = () => {
           />
           <h5>{t('hello')}, {t('I am')}</h5>
           <h1>Danrley Ney</h1>
-          <h5 className='text-alight'>Full stack Developer </h5>
+          <h5 className='text-alight'>{t('Developer')} </h5>
           <Cta />
           <HeaderSocial />
           <div className='me'>

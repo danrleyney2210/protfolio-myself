@@ -4,12 +4,15 @@ import ME from "../../../assets/eu.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useTranslation } from "react-i18next";
 
 export const About = () => {
+  const [t] = useTranslation('default')
+
   return (
     <S.Wrapper id="about">
-      <h5>Venha me Conhecer</h5>
-      <h2>Sobre mim</h2>
+      <h5>{t('Come and meet me')}</h5>
+      <h2>{t('About me')}</h2>
 
       <S.AboutContainer className="container">
         <div className="about_me">
@@ -21,41 +24,36 @@ export const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>4+ Years Working</small>
+              <h5>{t('Experience')}</h5>
+              <small>4+ {t('Years Working')}</small>
             </article>
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>+7 Worldwide</small>
+              <h5>{t('Clients')}</h5>
+              <small>+7 {t('Worldwide')}</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <h5>{t('Projects')}</h5>
+              <small>10+ {t('Completed')}</small>
             </article>
           </div>
           <p>
-            Meu nome é Danrley Alves dos Santos sou de Teresina-PI e possuo larga experiência como programador passando por várias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.
+            {t('My name is')}
           </p>
 
           <p>
-            Sou graduado em Ciência da computação, logo após fiz Mestrado
-            em Engenharia de Computadores e sistema pela Universidade Estadual
-            do Maranhão - UEMA. Fui professor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e
-            focar 100% em engenharia de Software.
+            {t('I am a graduate')}
           </p>
 
           <p>
-            Eu amo trabalhar com pessoas comunicativas e que me ensinam ser um
-            ser humano melhor. Acho surpreendente o que a tecnologia provoca na
-            vida das pessoas e impactam diretamente na sociedade.
+            {t('I love working')}
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Entrar em contato
+            {t('Get in touch')}
           </a>
         </div>
       </S.AboutContainer>

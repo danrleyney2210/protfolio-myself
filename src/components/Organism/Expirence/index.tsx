@@ -1,12 +1,15 @@
 import React from "react";
 import * as S from "./styles";
 import { AiFillCheckCircle } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 
 export const Expirence = () => {
+  const [t] = useTranslation('default')
+
   return (
     <S.Wrapper id="experience">
-      <h5>Skill</h5>
-      <h2>Minhas tecnologias</h2>
+      <h5>{t('Skill')}</h5>
+      <h2>{t('My technologies')}</h2>
 
       <S.ExperienceContainer className="container">
         <div className="experience_frontend">

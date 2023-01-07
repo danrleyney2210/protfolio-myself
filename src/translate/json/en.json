@@ -1,4 +1,25 @@
 {
   "hello": "Hello",
-  "I am" : "I am"
+  "I am" : "I am",
+  "Download": "Download",
+  "Contact": "Contact",
+  "Developer": "Full stack Developer",
+  "Scroll Down": "Scroll Down",
+  "Come and meet me": "Come and meet me",
+  "About me": "About me",
+  "Experience": "Experience",
+  "Years Working": "Years Working",
+  "Clients": "Clients",
+  "Worldwide": "Worldwide",
+  "Projects" : "Projects",
+  "Completed" : "Completed",
+  "My name is": "My name is Danrley Alves dos Santos, I'm from Teresina-PI and I have extensive experience as a programmer through several companies such as: Maida Health, Max.ia, Healtyou, among others.",
+  "I am a graduate":  "I am a graduate in Computer Science, logo after Mestrado in Computer Engineering and System by the State University do Maranhão - UEMA. I was a computer science professor at the Instituto Federal do Maranhão - IFMA. Larguei or Doutorado e to the classroom to dedicate myself and Focus 100% on Software Engineering.",
+  "I love working" : "I love working with communicative people who teach me to be a better human being. I find it surprising what technology causes in people's lives and directly impacts society.",
+  "Get in touch" : "Get in touch with",
+  "My technologies": "My technologies",
+  "Skill": "Skill"
+
+
+
 }
