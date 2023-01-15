@@ -35,7 +35,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>React Js</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -43,7 +43,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Typescript</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -51,7 +51,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Next Js</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -59,7 +59,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>React Native</h4>
-                <small className="text-light">Intermediário</small>
+                <small className="text-light">{t('Intermediary')}</small>
               </div>
             </article>
 
@@ -67,7 +67,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -75,7 +75,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Storybook</h4>
-                <small className="text-light">Intermediário</small>
+                <small className="text-light">{t('Intermediary')}</small>
               </div>
             </article>
 
@@ -83,7 +83,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -91,7 +91,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -99,14 +99,14 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Sass</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
             <article className="experience_details">
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
           </div>
@@ -118,7 +118,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Node Js</h4>
-                <small className="text-light">Intermediário</small>
+                <small className="text-light">{t('Intermediary')}</small>
               </div>
             </article>
 
@@ -126,7 +126,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermediário</small>
+                <small className="text-light">{t('Intermediary')}</small>
               </div>
             </article>
 
@@ -134,7 +134,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Nest JS</h4>
-                <small className="text-light">Intermediário</small>
+                <small className="text-light">{t('Intermediary')}</small>
               </div>
             </article>
           </div>

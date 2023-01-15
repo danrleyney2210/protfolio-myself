@@ -63,7 +63,7 @@ export const Services = () => {
             </li>
             <li>
               <BiCheck className='service_list_icon' />
-              <p>Atuar na estruturação e desenvolvimento de aplicações web/mobile e desktop.</p>
+              <p>Atuar na arquitetura e consultoria de aplicações web/mobile e desktop.</p>
             </li>
 
           </ul>
