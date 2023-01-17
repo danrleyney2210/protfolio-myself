@@ -40,7 +40,7 @@ const data: IDataProps[] = [
     id: 3,
     image: IMG3,
     title: "Just Travel",
-    dscription: 'Desafio realizado para empresa Just Travel para vagas de front-end develop.',
+    dscription: 'Desafio realizado para empresa Just Travel.',
     github: "https://github.com/danrleyney2210/challenge_logoipsum",
     demo: "https://challenge-logoipsum.vercel.app/",
     status: 'Live Demo'
@@ -49,7 +49,7 @@ const data: IDataProps[] = [
     id: 4,
     image: IMG4,
     title: "PokeRub",
-    dscription: 'Projeto desenvolvido para desafio a vaga de front-end da empresa Rubcube.',
+    dscription: 'Projeto desenvolvido para empresa Rubcube.',
     github: "https://github.com/danrleyney2210/rubcube_desafio",
     status: 'Produção'
   },
@@ -57,7 +57,7 @@ const data: IDataProps[] = [
     id: 5,
     image: IMG5,
     title: "dev finance",
-    dscription: 'Aplicação desenvolvida para fins educativos utilizando boas práticas',
+    dscription: 'Aplicação desenvolvida para fins educativos',
     github: "https://github.com/danrleyney2210/dev.finances-maratona-discover",
     demo: "https://dev-finances-maratona-discover.vercel.app/",
     status: 'Live Demo'
