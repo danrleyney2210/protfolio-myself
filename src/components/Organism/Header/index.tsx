@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Cta } from '../../Molecules/Cta'
 import * as S from './styles'
 import ME from '../../../assets/ney.png'
+import Ney from '../../../assets/Ney2.png'
 import { HeaderSocial } from '../../Molecules/HeaderSocial'
 import { ChangeLanguage } from '../../Atomos/ChangeLanguage'
 
@@ -25,7 +26,7 @@ export const Header = () => {
           <Cta />
           <HeaderSocial />
           <div className='me'>
-            <img src={ME} alt="" />
+            <img src={Ney} alt="" />
           </div>
           <a href="#contact" className='scroll__down'>Scroll Down</a>
         </S.HeaderContainer>

@@ -5,6 +5,8 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { useTranslation } from "react-i18next";
+import CV from '../../../assets/cv.pdf'
+
 
 export const About = () => {
   const [t] = useTranslation('default')
@@ -25,7 +27,7 @@ export const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>{t('Experience')}</h5>
-              <small>4+ {t('Years Working')}</small>
+              <small>5+ {t('Years Working')}</small>
             </article>
 
             <article className="about_card">
@@ -52,9 +54,16 @@ export const About = () => {
             {t('I love working')}
           </p>
 
-          <a href="#contact" className="btn btn-primary">
-            {t('Get in touch')}
-          </a>
+          <div style={{ display: 'flex', gap: '10px' }}>
+            <a href="#contact" className="btn btn-primary">
+              {t('Get in touch')}
+            </a>
+
+
+
+            <a href={CV} className="btn">{t('Download')} CV</a>
+          </div>
+
         </div>
       </S.AboutContainer>
     </S.Wrapper>
