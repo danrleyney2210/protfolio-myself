@@ -8,7 +8,6 @@ const Rotas = () => {
   return (
     <Router>
       <ContextProvider>
-
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

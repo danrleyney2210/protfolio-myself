@@ -8,85 +8,91 @@ import IMG4 from "../../../assets/app00.png";
 import IMG5 from "../../../assets/finance.png";
 import IMG6 from "../../../assets/view.png";
 import IMG7 from "../../../assets/neural.png";
+import { useTranslation } from "react-i18next";
 
 interface IDataProps {
   id: number,
   image: any,
   title: string,
   github?: string,
-  dscription?: string
+  dscription?: string | any
   status?: string
   demo?: string
 }
 
-const data: IDataProps[] = [
-  {
-    id: 1,
-    image: IMG1,
-    title: "Open Solo",
-    dscription: 'Construibição como um dos desenvolvedores deste projeto.',
-    demo: "https://app.opensolo.com/login",
-    status: 'Produção'
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: "Neo estech",
-    dscription: 'Construibição como um dos desenvolvedores deste projeto.',
-    demo: "https://app.neoestech.com.br/auth/login",
-    status: 'Produção'
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Just Travel",
-    dscription: 'Desafio realizado para empresa Just Travel.',
-    github: "https://github.com/danrleyney2210/challenge_logoipsum",
-    demo: "https://challenge-logoipsum.vercel.app/",
-    status: 'Live Demo'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "PokeRub",
-    dscription: 'Projeto desenvolvido para empresa Rubcube.',
-    github: "https://github.com/danrleyney2210/rubcube_desafio",
-    status: 'Produção'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "dev finance",
-    dscription: 'Aplicação desenvolvida para fins educativos',
-    github: "https://github.com/danrleyney2210/dev.finances-maratona-discover",
-    demo: "https://dev-finances-maratona-discover.vercel.app/",
-    status: 'Live Demo'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Landing Page",
-    dscription: 'Projeto desenvolvido para captação de leads e conversão.',
-    github: "https://github.com/danrleyney2210/landing-page-01/tree/master",
-    demo: "https://metodo-mais-views.vercel.app/",
-    status: 'Live Demo'
-  },
-  {
-    id: 7,
-    image: IMG7,
-    title: "Redes Neurais",
-    dscription: 'Trabalho desenvolvido no programa de mestrado em engenharia de Computadores e sistemas.',
-    github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
-    status: 'Produção'
-  },
 
-];
 
 export const Portfolio = () => {
+  const [t] = useTranslation('default')
+
+
+  const data: IDataProps[] = [
+    {
+      id: 1,
+      image: IMG1,
+      title: "Open Solo",
+      dscription: t('contribution'),
+      demo: "https://app.opensolo.com/login",
+      status: 'Produção'
+    },
+    {
+      id: 2,
+      image: IMG2,
+      title: "Neo estech",
+      dscription: t('contribution'),
+      demo: "https://app.neoestech.com.br/auth/login",
+      status: 'Produção'
+    },
+    {
+      id: 3,
+      image: IMG3,
+      title: "Just Travel",
+      dscription: t('ChallengeJusTravel'),
+      github: "https://github.com/danrleyney2210/challenge_logoipsum",
+      demo: "https://challenge-logoipsum.vercel.app/",
+      status: 'Live Demo'
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: "PokeRub",
+      dscription: t('ProjectRecube'),
+      github: "https://github.com/danrleyney2210/rubcube_desafio",
+      status: 'Produção'
+    },
+    {
+      id: 5,
+      image: IMG5,
+      title: "Dev finance",
+      dscription: t('ApplicationEducation'),
+      github: "https://github.com/danrleyney2210/dev.finances-maratona-discover",
+      demo: "https://dev-finances-maratona-discover.vercel.app/",
+      status: 'Live Demo'
+    },
+    {
+      id: 6,
+      image: IMG6,
+      title: "Landing Page",
+      dscription: t('ProjectConvert'),
+      github: "https://github.com/danrleyney2210/landing-page-01/tree/master",
+      demo: "https://metodo-mais-views.vercel.app/",
+      status: 'Live Demo'
+    },
+    {
+      id: 7,
+      image: IMG7,
+      title: t('NeuralNetworks'),
+      dscription: t('MasterEngineer'),
+      github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
+      status: 'Produção'
+    },
+
+  ];
+
   return (
     <S.Wrapper id="portfolio">
-      <h5>Trabalhos e projetos desenvolvidos</h5>
-      <h2>Portfólio</h2>
+      <h5>{t('Work')}</h5>
+      <h2>{t('Portfolio')}</h2>
 
       <S.PortfolioContainer className="container">
         {data.map((item) => (

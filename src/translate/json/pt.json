@@ -20,17 +20,20 @@
   "My technologies": "Minhas Tecnologias",
   "Skill": "Habilidade",
   "Advanced": "Avançado",
-  "Intermediary": "Intermediário"
-
-
-
-
-
-
-
-
-
+  "Intermediary": "Intermediário",
+  "Work": "Trabalhos e projetos desenvolvidos",
+  "Portfolio": "portfólio",
+  "contribution": "Contribuição como um dos desenvolvedores do projeto.",
+  "ChallengeJusTravel": "Desafio realizado para empresa Just Travel.",
+  "ProjectRecube": "Projeto desenvolvido para empresa Rubcube.",
+  "ApplicationEducation": "Aplicação desenvolvida para fins educativos",
+  "ProjectConvert": "Projeto desenvolvido para captação de leads e conversão.",
+  "NeuralNetworks": "Rede Neural",
+  "MasterEngineer": "Trabalho desenvolvido no programa de mestrado em Engenharia Informática e Sistemas."
   
+
+
+
 
 
 }

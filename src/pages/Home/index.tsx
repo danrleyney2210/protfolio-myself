@@ -14,10 +14,10 @@ export const Home = () => {
     <>
       <Header />
       <Nav />
+      <Portfolio />
       <About />
       <Expirence />
       <Services />
-      <Portfolio />
       <Testimonials />
       <Contact />
       <Footer />
