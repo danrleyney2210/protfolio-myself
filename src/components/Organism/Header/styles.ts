@@ -18,6 +18,7 @@ export const HeaderContainer = styled.div`
   text-align: center;
   height: 100%;
   position: relative;
+  /* background-color: red; */
 
   .me {
     background: linear-gradient(
@@ -33,10 +34,14 @@ export const HeaderContainer = styled.div`
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
     img {
       border-radius: 50%;
-      width: 300px;
-      height: 300px;
+      width: 200px;
+      height: 200px;
     }
   }
 
@@ -52,15 +57,16 @@ export const HeaderContainer = styled.div`
     .me {
       width: 18rem;
       margin-left: 40px;
-      /* height: 30rem; */
+      height: 20rem;
       display: flex;
       justify-content: center;
       align-items: center;
       /* margin: 0 auto; */
 
       img {
-        width: 220px;
-        height: 220px;
+        margin-top: -100px;
+        width: 210px;
+        height: 210px;
       }
     }
 
