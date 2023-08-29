@@ -8,6 +8,7 @@ import IMG4 from "../../../assets/app00.png";
 import IMG5 from "../../../assets/finance.png";
 import IMG6 from "../../../assets/view.png";
 import IMG7 from "../../../assets/neural.png";
+import IMG8 from "../../../assets/coinSynch.png";
 import { useTranslation } from "react-i18next";
 
 interface IDataProps {
@@ -27,6 +28,15 @@ export const Portfolio = () => {
 
 
   const data: IDataProps[] = [
+    {
+      id: 8,
+      image: IMG8,
+      title: "Coin Synch",
+      dscription: t('contribution'),
+      demo: "https://coin-synch-a88d4swwl-danrleyney2210.vercel.app/",
+      github: "https://github.com/danrleyney2210/CoinSynch",
+      status: 'Produção'
+    },
     {
       id: 1,
       image: IMG1,
