@@ -1,6 +1,6 @@
 {
   "hello": "Olá",
-  "I am" : "Eu sou",
+  "I am": "Eu sou",
   "Download": "Baixar",
   "Contact": "Contato",
   "Developer": "Desenvolvedor Full stack",
@@ -11,12 +11,12 @@
   "Years Working": "Anos de Trabalho",
   "Clients": "Clientes",
   "Worldwide": "No mundo todo",
-  "Projects" : "Projetos",
-  "Completed" : "Completos",
+  "Projects": "Projetos",
+  "Completed": "Completos",
   "My name is": "Meu nome é Danrley Alves dos Santos sou do Brasil e possuo larga experiência como programador passando por várias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.",
-  "I am a graduate":  "Sou graduado em Ciência da computação, logo após fiz Mestrado em Engenharia de Computadores e sistema pela Universidade Estadual do Maranhão - UEMA. Fui professor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e focar 100% em engenharia de Software.",
-  "I love working" : "Eu amo trabalhar com pessoas comunicativas e que me ensinam ser um ser humano melhor. Acho surpreendente o que a tecnologia provoca na vida das pessoas e impactam diretamente na sociedade.",
-  "Get in touch" : "Entre em Contato",
+  "I am a graduate": "Sou graduado em Ciência da computação, logo após fiz Mestrado em Engenharia de Computadores e sistema pela Universidade Estadual do Maranhão - UEMA. Fui professor de informática no Instituto Federal do maranhão - IFMA.  Larguei o Doutorado e a sala de aula para dedicar-me e focar 100% em engenharia de Software.",
+  "I love working": "Eu amo trabalhar com pessoas comunicativas e que me ensinam ser um ser humano melhor. Acho surpreendente o que a tecnologia provoca na vida das pessoas e impactam diretamente na sociedade.",
+  "Get in touch": "Entre em Contato",
   "My technologies": "Minhas Tecnologias",
   "Skill": "Habilidade",
   "Advanced": "Avançado",
@@ -29,11 +29,6 @@
   "ApplicationEducation": "Aplicação desenvolvida para fins educativos",
   "ProjectConvert": "Projeto desenvolvido para captação de leads e conversão.",
   "NeuralNetworks": "Rede Neural",
-  "MasterEngineer": "Trabalho desenvolvido no programa de mestrado em Engenharia Informática e Sistemas."
-  
-
-
-
-
-
+  "MasterEngineer": "Trabalho desenvolvido no programa de mestrado em Engenharia Informática e Sistemas.",
+  "starWras": "Teste realizado para uma empresa"
 }

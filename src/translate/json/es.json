@@ -1,6 +1,6 @@
 {
   "hello": "Hola",
-  "I am" : "yo soy",
+  "I am": "yo soy",
   "Download": "Descargar",
   "Contact": "Contacto",
   "Developer": "Desarrollador Full stack",
@@ -11,11 +11,11 @@
   "Years Working": "Años trabajando",
   "Clients": "Clientes",
   "Worldwide": "En todo el mundo",
-  "Projects" : "Proyecto",
-  "Completed" : "Terminado",
+  "Projects": "Proyecto",
+  "Completed": "Terminado",
   "My name is": "Meu nome é Danrley Alves dos Santos sou do Brasil y possuo una larga experiencia como programador passando por varias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.",
-  "I am a graduate":  "Me encanta trabajar con personas comunicativas que me enseñen a ser un mejor ser humano. Me sorprende lo que la tecnología provoca en la vida de las personas e impacta directamente en la sociedad.",
-  "Get in touch" : "Entrar en contacto",
+  "I am a graduate": "Me encanta trabajar con personas comunicativas que me enseñen a ser un mejor ser humano. Me sorprende lo que la tecnología provoca en la vida de las personas e impacta directamente en la sociedad.",
+  "Get in touch": "Entrar en contacto",
   "My technologies": "Mis tecnologías",
   "Skill": "Habilidad",
   "Advanced": "Avanzado",
@@ -28,6 +28,6 @@
   "ApplicationEducation": "Aplicación desarrollada con fines educativos.",
   "ProjectConvert": "Proyecto desarrollado para la captación y conversión de leads.",
   "NeuralNetworks": "Redes neuronales",
-  "MasterEngineer": "Trabajo desarrollado en el programa de Maestría en Ingeniería en Computación y Sistemas."
+  "MasterEngineer": "Trabajo desarrollado en el programa de Maestría en Ingeniería en Computación y Sistemas.",
+  "starWras": "Prueba realizada para una empresa."
 }
-  

@@ -9,6 +9,7 @@ import IMG5 from "../../../assets/finance.png";
 import IMG6 from "../../../assets/view.png";
 import IMG7 from "../../../assets/neural.png";
 import IMG8 from "../../../assets/coinSynch.png";
+import IMG9 from "../../../assets/star.png";
 import { useTranslation } from "react-i18next";
 
 interface IDataProps {
@@ -94,6 +95,16 @@ export const Portfolio = () => {
       title: t('NeuralNetworks'),
       dscription: t('MasterEngineer'),
       github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
+      status: 'Produção'
+    },
+
+    {
+      id: 9,
+      image: IMG9,
+      title: 'Star Wars',
+      dscription: t('starWras'),
+      github: "https://github.com/danrleyney2210/start-wars-app",
+      demo: "https://start-wars-app.vercel.app/",
       status: 'Produção'
     },
 
