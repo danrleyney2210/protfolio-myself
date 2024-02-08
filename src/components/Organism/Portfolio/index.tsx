@@ -22,8 +22,6 @@ interface IDataProps {
   demo?: string
 }
 
-
-
 export const Portfolio = () => {
   const [t] = useTranslation('default')
 
