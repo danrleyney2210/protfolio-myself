@@ -27,7 +27,7 @@ export const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>{t('Experience')}</h5>
-              <small>5+ {t('Years Working')}</small>
+              <small>6+ {t('Years Working')}</small>
             </article>
 
             <article className="about_card">
