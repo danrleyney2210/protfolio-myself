@@ -5,7 +5,7 @@ import IMG1 from "../../../assets/openSolo.png";
 import IMG2 from "../../../assets/neo.png";
 import IMG3 from "../../../assets/justravel.png";
 import IMG4 from "../../../assets/app00.png";
-import IMG5 from "../../../assets/finance.png";
+import IMG5 from "../../../assets/betastore.png";
 import IMG6 from "../../../assets/view.png";
 import IMG7 from "../../../assets/neural.png";
 import IMG8 from "../../../assets/coinSynch.png";
@@ -72,10 +72,10 @@ export const Portfolio = () => {
     {
       id: 5,
       image: IMG5,
-      title: "Dev finance",
+      title: "Beta Store",
       dscription: t('ApplicationEducation'),
-      github: "https://github.com/danrleyney2210/dev.finances-maratona-discover",
-      demo: "https://dev-finances-maratona-discover.vercel.app/",
+      github: "https://github.com/danrleyney2210/betastore_front",
+      demo: "https://betastore-front.vercel.app/",
       status: 'Live Demo'
     },
     {
