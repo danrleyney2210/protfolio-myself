@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import bgTexture from "../assets/bg-texture.png";
 
 export const GlobalStyle = createGlobalStyle`
   * {
