@@ -87,5 +87,30 @@
         "discipline": "Excelente disciplina, foco e atenção aos detalhes."
       }
     }
+  },
+  "About": {
+    "title": "Venha me Conhecer",
+    "subtitle": "Sobre mim",
+    "experience": {
+      "title": "Experiência",
+      "years": "8+ Anos de Trabalho"
+    },
+    "clients": {
+      "title": "Clientes",
+      "count": "+7 No mundo todo"
+    },
+    "projects": {
+      "title": "Projetos",
+      "count": "10+ Completos"
+    },
+    "description": {
+      "intro": "Meu nome é Danrley Alves dos Santos, nasci em um dos estados mais pobres do Brasil, o Piauí, onde a mentalidade predominante era que apenas aqueles que seguissem a medicina teriam sucesso. Desde cedo, desafiei esse pensamento e escolhi a tecnologia como meu caminho. Hoje, não trocaria essa área por nenhuma outra. Sou do Brasil e possuo larga experiência como programador passando por várias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.",
+      "education": "Sou graduado em Ciência da computação, logo após fiz Mestrado em Engenharia de Computadores e sistema pela Universidade Estadual do Maranhão - UEMA. Fui professor de informática no Instituto Federal do maranhão - IFMA. Larguei o Doutorado e a sala de aula para dedicar-me e focar 100% em engenharia de Software.",
+      "personal": "Eu amo trabalhar com pessoas comunicativas e que me ensinam ser um ser humano melhor. Acho surpreendente o que a tecnologia provoca na vida das pessoas e impactam diretamente na sociedade."
+    },
+    "buttons": {
+      "contact": "Entre em Contato",
+      "download": "Baixar CV"
+    }
   }
 }

@@ -87,5 +87,30 @@
         "discipline": "Excellent discipline, focus and attention to detail."
       }
     }
+  },
+  "About": {
+    "title": "Come and meet me",
+    "subtitle": "About me",
+    "experience": {
+      "title": "Experience",
+      "years": "8+ Years Working"
+    },
+    "clients": {
+      "title": "Clients",
+      "count": "+7 Worldwide"
+    },
+    "projects": {
+      "title": "Projects",
+      "count": "10+ Completed"
+    },
+    "description": {
+      "intro": "My name is Danrley Alves dos Santos, I was born in one of the poorest states in Brazil, Piauí, where the predominant mindset was that only those who pursued medicine would succeed. From early on, I challenged this thinking and chose technology as my path. Today, I wouldn't trade this field for any other. I'm from Brazil and I have extensive experience as a programmer through several companies such as: Maida Health, Max.ia, Healtyou, among others.",
+      "education": "I am a graduate in Computer Science, right after I got a Master in Computer Engineering and System by the State University of Maranhão - UEMA. I was a computer science professor at the Federal Institute of Maranhão - IFMA. I left a PhD and the classroom to dedicate myself and focus 100% on Software Engineering.",
+      "personal": "I love working with communicative people who teach me to be a better human being. I find it surprising what technology causes in people's lives and directly impacts society."
+    },
+    "buttons": {
+      "contact": "Get in touch",
+      "download": "Download CV"
+    }
   }
 }

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import bgTexture from "../assets/bg-texture.png";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -30,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.color_bg};
     color: ${(props) => props.theme.color_white};
     line-height: 1.7;
-    background-image: url('../../src/assets/bg-texture.png');
+    background-image: url('/assets/bg-texture.png');
   }
 
   .container {
