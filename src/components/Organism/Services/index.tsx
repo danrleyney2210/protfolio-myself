@@ -28,12 +28,16 @@ export const Services = () => {
             </li>
             <li>
               <BiCheck className='service_list_icon' />
+              <p>{t('Services.qualifications.items.fullstack')}</p>
+            </li>
+            {/* <li>
+              <BiCheck className='service_list_icon' />
               <p>{t('Services.qualifications.items.frontend')}</p>
             </li>
             <li>
               <BiCheck className='service_list_icon' />
-              <p>{t('Services.qualifications.items.mobile')}</p>
-            </li>
+              <p>{t('Services.qualifications.items.backend')}</p>
+            </li> */}
             <li>
               <BiCheck className='service_list_icon' />
               <p>{t('Services.qualifications.items.tech')}</p>

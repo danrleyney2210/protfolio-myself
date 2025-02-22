@@ -64,7 +64,8 @@
         "graduation": "Bachelor's degree in Computer Science.",
         "masters": "Master's degree in Computer Engineering and Systems.",
         "frontend": "Front-End Web Development.",
-        "mobile": "Front-End Mobile Development.",
+        "backend": "Back-End Web Development.",
+        "fullstack": "FullStack Development.",
         "tech": "Programming and Technology Technician."
       }
     },

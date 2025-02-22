@@ -64,7 +64,8 @@
         "graduation": "Graduado em Ciências da Computação.",
         "masters": "Mestrado em Engenharia de Computadores e sistemas.",
         "frontend": "Desenvolvimento Front-End Web.",
-        "mobile": "Desenvolvimento Front-End Mobile.",
+        "backend": "Desenvolvimento Back-End Web.",
+        "fullstack": "Desenvolvimento FullStack Web.",
         "tech": "Técnico em Programação e tecnologia."
       }
     },
