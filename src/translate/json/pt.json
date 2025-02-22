@@ -30,5 +30,62 @@
   "ProjectConvert": "Projeto desenvolvido para captação de leads e conversão.",
   "NeuralNetworks": "Rede Neural",
   "MasterEngineer": "Trabalho desenvolvido no programa de mestrado em Engenharia Informática e Sistemas.",
-  "starWras": "Teste realizado para uma empresa"
+  "starWras": "Teste realizado para uma empresa",
+  "Testimonials": {
+    "title": "Indicações",
+    "subtitle": "Recomendações",
+    "mardoqueu": {
+      "name": "Mardoqueu Sousa",
+      "occupation": "Engenheiro de Software Fullstack | Spring Boot | API REST | Hibernate | Nexus | Java | SQL",
+      "review": "Conheci Danrley no instituto federal, ele possui uma habilidade de adaptação impar em aprender novas tecnologias de programação como também é um excelente docente. Sempre foi bastante proativo como também possui intensa paixão pelo campo de tecnologia, costumava ficar até tarde no trabalho para bater metas e os nossos coordenadores nunca duvidavam de sua capacidade profissional e garra pela área de tecnologia da informação."
+    },
+    "luan": {
+      "name": "Luan David Carrilho",
+      "occupation": "Desenvolvedor de Software | Dart | Flutter",
+      "review": "O Danrley possui fortes competências técnicas, possui qualidades enquanto pessoa, fundamentais em qualquer organização. Destaco a sua força de vontade, empatia, curiosidade e excelente capacidade de comunicação. Estudamos juntos e trabalhamos juntos em alguns projetos de softwares durante 5 anos e considero que ele tem todas as condições para evoluir rapidamente na sua carreira, recomendo-o vivamente para todas as funções que possam exigir skills técnicos na área de IT, perfil de liderança, resiliência e cultura de organização."
+    },
+    "kenny": {
+      "name": "Kenny Wilker",
+      "occupation": "Desenvolvedor | Java | Python | HTML | CSS | Javascript | Git/GitHub | Data Science & Analytics",
+      "review": "Extremamente apaixonado pelo que faz, muito atento aos detalhes e competente. Além das suas habilidades e experiências curriculares, ele constrói confiança nas suas relações profissionais e conduz suas atribuições com total maestria e sempre em busca de inovações.. Leva a informação de forma clara e eficiente a todos os públicos e níveis da organização. É sempre um prazer para mim dividir um convívio profissional com a Mardoqueu."
+    },
+    "lucas": {
+      "name": "Lucas Marques",
+      "occupation": "Engenheiro de Qualidade/Mestre em Engenharia Elétrica - UFPI",
+      "review": "Grande profissional! Além de realizar uma ótima entrega do ponto de vista técnico, estabelece uma boa comunicação e dinâmica para o desenvolvimento do projeto, além de ser um grande desenvolvedor que sempre cumpre as suas metas estabelecidas, Recomendo!"
+    }
+  },
+  "Services": {
+    "title": "O que eu Ofereço?",
+    "subtitle": "Serviços",
+    "qualifications": {
+      "title": "Qualificações",
+      "items": {
+        "graduation": "Graduado em Ciências da Computação.",
+        "masters": "Mestrado em Engenharia de Computadores e sistemas.",
+        "frontend": "Desenvolvimento Front-End Web.",
+        "mobile": "Desenvolvimento Front-End Mobile.",
+        "tech": "Técnico em Programação e tecnologia."
+      }
+    },
+    "collaboration": {
+      "title": "Como posso colaborar ?",
+      "items": {
+        "development": "Desenvolvimento web/Mobile e desktop.",
+        "apps": "Desenvolvimento de aplicativos, sistemas e sites para pequenas e grandes empresas.",
+        "maintenance": "Manutenção e melhorias em sistemas já desenvolvidos.",
+        "apis": "Consumo de APIs para integração com os sistemas.",
+        "architecture": "Atuar na arquitetura e consultoria de aplicações web/mobile e desktop."
+      }
+    },
+    "plus": {
+      "title": "Plus",
+      "items": {
+        "communication": "Fortes habilidades de comunicação com a capacidade de discutir qualquer problema com uma ampla variedade de indivíduos e grupos.",
+        "professional": "Capacidade de permanecer profissional em situações estressantes/disputas.",
+        "english": "Habilidades de comunicação oral e escrita em inglês.",
+        "discipline": "Excelente disciplina, foco e atenção aos detalhes."
+      }
+    }
+  }
 }

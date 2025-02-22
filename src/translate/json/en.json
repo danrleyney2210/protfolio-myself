@@ -30,5 +30,62 @@
   "ProjectConvert": "Project developed for lead capture and conversion.",
   "NeuralNetworks": "Neural networks",
   "MasterEngineer": "Work developed in the Master's program in Computer and Systems Engineering.",
-  "starWras": "Test carried out for a company."
+  "starWras": "Test carried out for a company.",
+  "Testimonials": {
+    "title": "References",
+    "subtitle": "Recommendations",
+    "mardoqueu": {
+      "name": "Mardoqueu Sousa",
+      "occupation": "Fullstack Software Engineer | Spring Boot | API REST | Hibernate | Nexus | Java | SQL",
+      "review": "I met Danrley at the federal institute, he has a unique ability to adapt in learning new programming technologies and is also an excellent teacher. He was always very proactive and also has an intense passion for the technology field, used to stay late at work to meet goals and our coordinators never doubted his professional capacity and determination in the information technology area."
+    },
+    "luan": {
+      "name": "Luan David Carrilho",
+      "occupation": "Software Developer | Dart | Flutter",
+      "review": "Danrley has strong technical skills and personal qualities that are fundamental in any organization. I highlight his willpower, empathy, curiosity and excellent communication skills. We studied together and worked together on some software projects for 5 years and I consider that he has all the conditions to evolve quickly in his career, I strongly recommend him for all functions that may require technical skills in IT, leadership profile, resilience and organizational culture."
+    },
+    "kenny": {
+      "name": "Kenny Wilker",
+      "occupation": "Developer | Java | Python | HTML | CSS | Javascript | Git/GitHub | Data Science & Analytics",
+      "review": "Extremely passionate about what he does, very attentive to details and competent. In addition to his skills and curricular experiences, he builds trust in his professional relationships and conducts his assignments with total mastery and always in search of innovations. He conveys information clearly and efficiently to all audiences and levels of the organization. It is always a pleasure for me to share a professional experience with Mardoqueu."
+    },
+    "lucas": {
+      "name": "Lucas Marques",
+      "occupation": "Quality Assurance Engineer/Master in Electrical Engineering - UFPI",
+      "review": "Great professional! In addition to delivering excellently from a technical point of view, he establishes good communication and dynamics for project development, besides being a great developer who always meets his established goals, I recommend him!"
+    }
+  },
+  "Services": {
+    "title": "What do I Offer?",
+    "subtitle": "Services",
+    "qualifications": {
+      "title": "Qualifications",
+      "items": {
+        "graduation": "Bachelor's degree in Computer Science.",
+        "masters": "Master's degree in Computer Engineering and Systems.",
+        "frontend": "Front-End Web Development.",
+        "mobile": "Front-End Mobile Development.",
+        "tech": "Programming and Technology Technician."
+      }
+    },
+    "collaboration": {
+      "title": "How can I collaborate?",
+      "items": {
+        "development": "Web/Mobile and desktop development.",
+        "apps": "Development of applications, systems and websites for small and large companies.",
+        "maintenance": "Maintenance and improvements in already developed systems.",
+        "apis": "API consumption for system integration.",
+        "architecture": "Act in architecture and consulting of web/mobile and desktop applications."
+      }
+    },
+    "plus": {
+      "title": "Plus",
+      "items": {
+        "communication": "Strong communication skills with the ability to discuss any problem with a wide variety of individuals and groups.",
+        "professional": "Ability to remain professional in stressful situations/disputes.",
+        "english": "Oral and written communication skills in English.",
+        "discipline": "Excellent discipline, focus and attention to detail."
+      }
+    }
+  }
 }

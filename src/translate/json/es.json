@@ -13,7 +13,7 @@
   "Worldwide": "En todo el mundo",
   "Projects": "Proyecto",
   "Completed": "Terminado",
-  "My name is": "Meu nome é Danrley Alves dos Santos sou do Brasil y possuo una larga experiencia como programador passando por varias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.",
+  "My name is": "Meu nome é Danrley Alves dos Santos sou do Brasil y possuo uma larga experiencia como programador passando por varias empresas tais como: Maida Health, Max.ia, Healtyou entre outras.",
   "I am a graduate": "Me encanta trabajar con personas comunicativas que me enseñen a ser un mejor ser humano. Me sorprende lo que la tecnología provoca en la vida de las personas e impacta directamente en la sociedad.",
   "Get in touch": "Entrar en contacto",
   "My technologies": "Mis tecnologías",
@@ -29,5 +29,62 @@
   "ProjectConvert": "Proyecto desarrollado para la captación y conversión de leads.",
   "NeuralNetworks": "Redes neuronales",
   "MasterEngineer": "Trabajo desarrollado en el programa de Maestría en Ingeniería en Computación y Sistemas.",
-  "starWras": "Prueba realizada para una empresa."
+  "starWras": "Prueba realizada para una empresa.",
+  "Testimonials": {
+    "title": "Referencias",
+    "subtitle": "Recomendaciones",
+    "mardoqueu": {
+      "name": "Mardoqueu Sousa",
+      "occupation": "Ingeniero de Software Fullstack | Spring Boot | API REST | Hibernate | Nexus | Java | SQL",
+      "review": "Conocí a Danrley en el instituto federal, tiene una capacidad única de adaptación para aprender nuevas tecnologías de programación y también es un excelente profesor. Siempre fue muy proactivo y también tiene una intensa pasión por el campo de la tecnología, solía quedarse hasta tarde en el trabajo para alcanzar objetivos y nuestros coordinadores nunca dudaron de su capacidad profesional y determinación en el área de tecnología de la información."
+    },
+    "luan": {
+      "name": "Luan David Carrilho",
+      "occupation": "Desarrollador de Software | Dart | Flutter",
+      "review": "Danrley tiene fuertes habilidades técnicas y cualidades personales fundamentales en cualquier organización. Destaco su fuerza de voluntad, empatía, curiosidad y excelente capacidad de comunicación. Estudiamos juntos y trabajamos juntos en algunos proyectos de software durante 5 años y considero que tiene todas las condiciones para evolucionar rápidamente en su carrera, lo recomiendo encarecidamente para todas las funciones que puedan requerir habilidades técnicas en el área de TI, perfil de liderazgo, resiliencia y cultura organizacional."
+    },
+    "kenny": {
+      "name": "Kenny Wilker",
+      "occupation": "Desarrollador | Java | Python | HTML | CSS | Javascript | Git/GitHub | Data Science & Analytics",
+      "review": "Extremadamente apasionado por lo que hace, muy atento a los detalles y competente. Además de sus habilidades y experiencias curriculares, construye confianza en sus relaciones profesionales y conduce sus atribuciones con total maestría y siempre en busca de innovaciones. Transmite la información de manera clara y eficiente a todos los públicos y niveles de la organización. Siempre es un placer para mí compartir una experiencia profesional con Mardoqueu."
+    },
+    "lucas": {
+      "name": "Lucas Marques",
+      "occupation": "Ingeniero de Calidad/Máster en Ingeniería Eléctrica - UFPI",
+      "review": "¡Gran profesional! Además de realizar una excelente entrega desde el punto de vista técnico, establece una buena comunicación y dinámica para el desarrollo del proyecto, además de ser un gran desarrollador que siempre cumple con sus metas establecidas, ¡Lo recomiendo!"
+    }
+  },
+  "Services": {
+    "title": "¿Qué ofrezco?",
+    "subtitle": "Servicios",
+    "qualifications": {
+      "title": "Calificaciones",
+      "items": {
+        "graduation": "Graduado en Ciencias de la Computación.",
+        "masters": "Maestría en Ingeniería de Computadoras y sistemas.",
+        "frontend": "Desarrollo Front-End Web.",
+        "mobile": "Desarrollo Front-End Mobile.",
+        "tech": "Técnico en Programación y tecnología."
+      }
+    },
+    "collaboration": {
+      "title": "¿Cómo puedo colaborar?",
+      "items": {
+        "development": "Desarrollo web/Mobile y desktop.",
+        "apps": "Desarrollo de aplicaciones, sistemas y sitios web para pequeñas y grandes empresas.",
+        "maintenance": "Mantenimiento y mejoras en sistemas ya desarrollados.",
+        "apis": "Consumo de APIs para integración con los sistemas.",
+        "architecture": "Actuar en la arquitectura y consultoría de aplicaciones web/mobile y desktop."
+      }
+    },
+    "plus": {
+      "title": "Plus",
+      "items": {
+        "communication": "Fuertes habilidades de comunicación con la capacidad de discutir cualquier problema con una amplia variedad de individuos y grupos.",
+        "professional": "Capacidad de mantener la profesionalidad en situaciones estresantes/disputas.",
+        "english": "Habilidades de comunicación oral y escrita en inglés.",
+        "discipline": "Excelente disciplina, enfoque y atención a los detalles."
+      }
+    }
+  }
 }
