@@ -118,7 +118,15 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Node Js</h4>
-                <small className="text-light">{t('Intermediary')}</small>
+                <small className="text-light">{t('Advanced')}</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <AiFillCheckCircle className="experience_details_icon" />
+              <div>
+                <h4>Express</h4>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -126,7 +134,7 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">{t('Intermediary')}</small>
+                <small className="text-light">{t('Advanced')}</small>
               </div>
             </article>
 
@@ -134,7 +142,23 @@ export const Expirence = () => {
               <AiFillCheckCircle className="experience_details_icon" />
               <div>
                 <h4>Nest JS</h4>
-                <small className="text-light">{t('Intermediary')}</small>
+                <small className="text-light">{t('Advanced')}</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <AiFillCheckCircle className="experience_details_icon" />
+              <div>
+                <h4>Prisma</h4>
+                <small className="text-light">{t('Advanced')}</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <AiFillCheckCircle className="experience_details_icon" />
+              <div>
+                <h4>AWS</h4>
+                {/* <small className="text-light">{t('Advanced')}</small> */}
               </div>
             </article>
           </div>
