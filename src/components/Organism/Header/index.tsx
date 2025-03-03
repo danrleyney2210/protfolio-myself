@@ -9,7 +9,7 @@ import { ChangeLanguage } from '../../Atomos/ChangeLanguage'
 import { useTranslation } from 'react-i18next'
 
 export const Header = () => {
-  const [t] = useTranslation('default')
+  const [t] = useTranslation('')
   const [isOpenLanguage, setIsOpenLanguage] = useState(false)
 
   return (
@@ -22,7 +22,7 @@ export const Header = () => {
           />
           <h5>{t('hello')}, {t('I am')}</h5>
           <h1>Danrley Ney</h1>
-          <h5 className='text-alight'>{t('Developer')} </h5>
+          <h5 className='text-alight'>{t('SoftwareEngineer')} </h5>
           <Cta />
           <HeaderSocial />
           <div className='me'>
