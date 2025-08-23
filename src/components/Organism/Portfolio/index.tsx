@@ -10,6 +10,8 @@ import IMG6 from "../../../assets/view.png";
 import IMG7 from "../../../assets/neural.png";
 import IMG8 from "../../../assets/coinSynch.png";
 import IMG9 from "../../../assets/star.png";
+import IMG10 from "../../../assets/dexaki.png"
+import IMG11 from "../../../assets/aprepi.png"
 import { useTranslation } from "react-i18next";
 
 interface IDataProps {
@@ -28,7 +30,15 @@ export const Portfolio = () => {
 
   const data: IDataProps[] = [
     {
-      id: 8,
+      id: 1,
+      image: IMG10,
+      title: "Dexaki",
+      dscription: t('projectSaas'),
+      demo: "https://www.dexaki.com",
+      status: 'Produção'
+    },
+    {
+      id: 2,
       image: IMG8,
       title: "Coin Synch",
       dscription: t('contribution'),
@@ -37,7 +47,7 @@ export const Portfolio = () => {
       status: 'Produção'
     },
     {
-      id: 1,
+      id: 3,
       image: IMG1,
       title: "Open Solo",
       dscription: t('contribution'),
@@ -45,7 +55,7 @@ export const Portfolio = () => {
       status: 'Produção'
     },
     {
-      id: 2,
+      id: 4,
       image: IMG2,
       title: "Neo estech",
       dscription: t('contribution'),
@@ -53,7 +63,15 @@ export const Portfolio = () => {
       status: 'Produção'
     },
     {
-      id: 3,
+      id: 5,
+      image: IMG11,
+      title: "AREPI",
+      dscription: t('contribution'),
+      demo: "https://www.aprepi.com",
+      status: 'Produção'
+    },
+    {
+      id: 6,
       image: IMG3,
       title: "Just Travel",
       dscription: t('ChallengeJusTravel'),
@@ -62,7 +80,7 @@ export const Portfolio = () => {
       status: 'Live Demo'
     },
     {
-      id: 4,
+      id: 7,
       image: IMG4,
       title: "PokeRub",
       dscription: t('ProjectRecube'),
@@ -70,7 +88,7 @@ export const Portfolio = () => {
       status: 'Produção'
     },
     {
-      id: 5,
+      id: 8,
       image: IMG5,
       title: "Beta Store",
       dscription: t('ApplicationEducation'),
@@ -79,7 +97,7 @@ export const Portfolio = () => {
       status: 'Live Demo'
     },
     {
-      id: 6,
+      id: 9,
       image: IMG6,
       title: "Landing Page",
       dscription: t('ProjectConvert'),
@@ -88,7 +106,7 @@ export const Portfolio = () => {
       status: 'Live Demo'
     },
     {
-      id: 7,
+      id: 10,
       image: IMG7,
       title: t('NeuralNetworks'),
       dscription: t('MasterEngineer'),
@@ -97,7 +115,7 @@ export const Portfolio = () => {
     },
 
     {
-      id: 9,
+      id: 11,
       image: IMG9,
       title: 'Star Wars',
       dscription: t('starWras'),
