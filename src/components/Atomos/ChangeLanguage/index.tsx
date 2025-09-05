@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import * as S from './styles'
 import { SlArrowDown } from 'react-icons/sl'
 import { useContextSite } from '../../../context/Context'
-import i18n from 'i18next'
+import { useTranslation } from 'react-i18next'
 
 type IProps = {
   setIsOpenLanguage: (value: boolean) => void
@@ -31,6 +31,7 @@ const config = {
 export const ChangeLanguage = ({ setIsOpenLanguage, isOpenLanguage }: IProps) => {
 
   const [language, setLanguage] = useState<TypeLanguage>('en')
+  const { i18n } = useTranslation()
 
   const handleLanguage = (language: TypeLanguage) => {
     if (language === 'en') {

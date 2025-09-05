@@ -16,7 +16,11 @@ i18n.use(LanguageDetector).init({
   debug: true,
   supportedLngs: ["pt", "es", "en"],
   fallbackLng: 'en',
-  resources: messagesGlobal,
+  resources: {
+    en: { translation: messagesGlobal.en },
+    pt: { translation: messagesGlobal.pt },
+    es: { translation: messagesGlobal.es }
+  },
   detection: {
     order: ["localStorage", "cookie"],
   },

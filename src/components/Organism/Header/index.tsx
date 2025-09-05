@@ -9,7 +9,7 @@ import { ChangeLanguage } from '../../Atomos/ChangeLanguage'
 import { useTranslation } from 'react-i18next'
 
 export const Header = () => {
-  const [t] = useTranslation('')
+  const { t } = useTranslation()
   const [isOpenLanguage, setIsOpenLanguage] = useState(false)
 
   return (
