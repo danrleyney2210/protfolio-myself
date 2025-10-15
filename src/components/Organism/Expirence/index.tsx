@@ -4,7 +4,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 
 export const Expirence = () => {
-  const [t] = useTranslation('default')
+  const { t } = useTranslation()
 
   return (
     <S.Wrapper id="experience">

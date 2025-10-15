@@ -25,7 +25,7 @@ interface IDataProps {
 }
 
 export const Portfolio = () => {
-  const [t] = useTranslation('default')
+  const { t } = useTranslation()
 
 
   const data: IDataProps[] = [

@@ -30,22 +30,21 @@ const config = {
 
 export const ChangeLanguage = ({ setIsOpenLanguage, isOpenLanguage }: IProps) => {
 
-  const [language, setLanguage] = useState<TypeLanguage>('en')
   const { i18n } = useTranslation()
+  const [language, setLanguage] = useState<TypeLanguage>(() => {
+    const currentLang = i18n.language?.split('-')[0]
+    return (['en', 'pt', 'es'].includes(currentLang) ? currentLang : 'en') as TypeLanguage
+  })
+
+  useEffect(() => {
+    const currentLang = i18n.language?.split('-')[0]
+    if (['en', 'pt', 'es'].includes(currentLang)) {
+      setLanguage(currentLang as TypeLanguage)
+    }
+  }, [i18n.language])
 
   const handleLanguage = (language: TypeLanguage) => {
-    if (language === 'en') {
-      localStorage.setItem('i18nextLng', 'en')
-      i18n.changeLanguage('en')
-    } else if (language === 'es') {
-      localStorage.setItem('i18nextLng', 'es')
-      i18n.changeLanguage('es')
-    } else if (language === 'pt') {
-      localStorage.setItem('i18nextLng', 'pt')
-      i18n.changeLanguage('pt')
-    }
-    setLanguage(language)
-
+    i18n.changeLanguage(language)
   }
 
 
