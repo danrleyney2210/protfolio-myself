@@ -51,7 +51,7 @@ export const Portfolio = () => {
       image: IMG1,
       title: "Open Solo",
       dscription: t('contribution'),
-      demo: "https://app.opensolo.com/login",
+      demo: "https://opensolo.com/",
       status: 'Produção'
     },
     {
