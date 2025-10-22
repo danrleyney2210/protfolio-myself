@@ -32,6 +32,18 @@
   "NeuralNetworks": "Neural networks",
   "MasterEngineer": "Work developed in the Master's program in Computer and Systems Engineering.",
   "starWras": "Test carried out for a company.",
+  "Articles": {
+    "title": "Publications",
+    "subtitle": "Science Articles",
+    "empty": {
+      "title": "No articles yet",
+      "description": "Add your PDF files to src/assets/articles and link them in the Articles component."
+    },
+    "cta": {
+      "view": "View",
+      "download": "Download"
+    }
+  },
   "Testimonials": {
     "title": "References",
     "subtitle": "Recommendations",

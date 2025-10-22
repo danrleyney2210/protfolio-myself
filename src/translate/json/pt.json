@@ -32,6 +32,18 @@
   "NeuralNetworks": "Rede Neural",
   "MasterEngineer": "Trabalho desenvolvido no programa de mestrado em Engenharia Informática e Sistemas.",
   "starWras": "Teste realizado para uma empresa",
+  "Articles": {
+    "title": "Publicações",
+    "subtitle": "Artigos científicos",
+    "empty": {
+      "title": "Ainda não há artigos",
+      "description": "Adicione seus arquivos PDF em src/assets/articles e vincule-os no componente Articles."
+    },
+    "cta": {
+      "view": "Visualizar",
+      "download": "Baixar"
+    }
+  },
   "Testimonials": {
     "title": "Indicações",
     "subtitle": "Recomendações",
@@ -115,5 +127,5 @@
       "download": "Baixar CV"
     }
   },
-    "projectSaas": "Projeto sass desenvolvido"
+  "projectSaas": "Projeto sass desenvolvido"
 }

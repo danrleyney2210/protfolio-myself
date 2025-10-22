@@ -8,6 +8,18 @@
   "Scroll Down": "Desplazarse hacia abajo",
   "Come and meet me": "Ven a conocerme",
   "About me": "Acerca de mí",
+  "Articles": {
+    "title": "Publicaciones",
+    "subtitle": "Artículos científicos",
+    "empty": {
+      "title": "Aún no hay artículos",
+      "description": "Agrega tus archivos PDF a src/assets/articles y enlázalos en el componente Articles."
+    },
+    "cta": {
+      "view": "Ver",
+      "download": "Descargar"
+    }
+  },
   "About": {
     "title": "Ven a conocerme",
     "subtitle": "Acerca de mí",

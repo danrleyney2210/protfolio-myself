@@ -8,6 +8,7 @@ import { Nav } from '../../components/Organism/Nav'
 import { Portfolio } from '../../components/Organism/Portfolio'
 import { Services } from '../../components/Organism/Services'
 import { Testimonials } from '../../components/Organism/Testimonials'
+import { Articles } from '../../components/Organism/Articles'
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <Header />
       <Nav />
       <Portfolio />
+      <Articles />
       <About />
       <Expirence />
       <Services />
