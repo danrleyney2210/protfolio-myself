@@ -12,6 +12,7 @@ import IMG8 from "../../../assets/coinSynch.png";
 import IMG9 from "../../../assets/star.png";
 import IMG10 from "../../../assets/dexaki.png"
 import IMG11 from "../../../assets/aprepi.png"
+import IMG12 from "../../../assets/bloom.png"
 import { useTranslation } from "react-i18next";
 
 interface IDataProps {
@@ -29,6 +30,14 @@ export const Portfolio = () => {
 
 
   const data: IDataProps[] = [
+    {
+      id: 1,
+      image: IMG12,
+      title: "Bloom",
+      dscription: t('projectBloom'),
+      demo: "https://www.bloombyimpact.com/",
+      status: 'Produção'
+    },
     {
       id: 1,
       image: IMG10,
