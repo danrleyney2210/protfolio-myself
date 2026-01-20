@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Cta } from '../../Molecules/Cta'
 import * as S from './styles'
-import Ney from '../../../assets/eu_04.png'
+import Ney from '../../../assets/eu_06.png'
 import { HeaderSocial } from '../../Molecules/HeaderSocial'
 import { ChangeLanguage } from '../../Atomos/ChangeLanguage'
 
