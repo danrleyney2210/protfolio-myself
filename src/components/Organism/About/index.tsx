@@ -59,7 +59,7 @@ export const About = () => {
             </a>
 
             <a href={CV} className="btn">
-              {t('About.buttons.download')} CV
+              {t('About.buttons.download')}
             </a>
           </div>
         </div>
