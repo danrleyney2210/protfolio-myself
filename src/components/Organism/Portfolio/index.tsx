@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineStop } from 'react-icons/ai'
 import * as S from "./styles";
+import { NavTab } from "../../Atomos/NavTab";
 import IMG1 from "../../../assets/openSolo.png";
 import IMG2 from "../../../assets/neo.png";
 import IMG3 from "../../../assets/justravel.png";
@@ -20,143 +21,198 @@ interface IDataProps {
   image: any,
   title: string,
   github?: string,
-  dscription?: string | any
+  description?: string | any
   status?: string
   demo?: string
+  category: string;
+  stack: string[];
+  year: string;
 }
 
 export const Portfolio = () => {
   const { t } = useTranslation()
-
+  const [activeTab, setActiveTab] = useState('all');
 
   const data: IDataProps[] = [
     {
       id: 1,
       image: IMG12,
       title: "Bloom",
-      dscription: t('projectBloom'),
+      description: t('projectBloom'),
       demo: "https://www.bloombyimpact.com/",
-      status: 'Produção'
-    },
-    {
-      id: 1,
-      image: IMG10,
-      title: "Dexaki",
-      dscription: t('projectSaas'),
-      demo: "https://www.dexaki.com",
-      status: 'Produção'
+      status: 'Live',
+      category: 'web',
+      stack: ['React', 'TypeScript', 'Tailwind CSS'],
+      year: '2024'
     },
     {
       id: 2,
-      image: IMG8,
-      title: "Coin Synch",
-      dscription: t('contribution'),
-      demo: "https://coin-synch-a88d4swwl-danrleyney2210.vercel.app/",
-      github: "https://github.com/danrleyney2210/CoinSynch",
-      status: 'Produção'
+      image: IMG10,
+      title: "Dexaki",
+      description: t('projectSaas'),
+      demo: "https://www.dexaki.com",
+      status: 'Live',
+      category: 'web',
+      stack: ['React', 'Node.js', 'MongoDB'],
+      year: '2024'
     },
     {
       id: 3,
-      image: IMG1,
-      title: "Open Solo",
-      dscription: t('contribution'),
-      demo: "https://opensolo.com/",
-      status: 'Produção'
+      image: IMG8,
+      title: "Coin Synch",
+      description: t('contribution'),
+      demo: "https://coin-synch-a88d4swwl-danrleyney2210.vercel.app/",
+      github: "https://github.com/danrleyney2210/CoinSynch",
+      status: 'Live',
+      category: 'web',
+      stack: ['React', 'TypeScript', 'Tailwind CSS'],
+      year: '2024'
     },
     {
       id: 4,
-      image: IMG2,
-      title: "Neo estech",
-      dscription: t('contribution'),
-      demo: "https://app.neoestech.com.br/auth/login",
-      status: 'Produção'
+      image: IMG1,
+      title: "Open Solo",
+      description: t('contribution'),
+      demo: "https://opensolo.com/",
+      status: 'Live',
+      category: 'web',
+      stack: ['Vue.js', 'JavaScript', 'CSS'],
+      year: '2023'
     },
     {
       id: 5,
-      image: IMG11,
-      title: "AREPI",
-      dscription: t('contribution'),
-      demo: "https://www.aprepi.com",
-      status: 'Produção'
+      image: IMG2,
+      title: "Neo estech",
+      description: t('contribution'),
+      demo: "https://app.neoestech.com.br/auth/login",
+      status: 'Live',
+      category: 'web',
+      stack: ['React', 'TypeScript', 'PostgreSQL'],
+      year: '2023'
     },
     {
       id: 6,
-      image: IMG3,
-      title: "Just Travel",
-      dscription: t('ChallengeJusTravel'),
-      github: "https://github.com/danrleyney2210/challenge_logoipsum",
-      demo: "https://challenge-logoipsum.vercel.app/",
-      status: 'Live Demo'
+      image: IMG11,
+      title: "AREPI",
+      description: t('contribution'),
+      demo: "https://www.aprepi.com",
+      status: 'Live',
+      category: 'web',
+      stack: ['HTML', 'CSS', 'JavaScript'],
+      year: '2023'
     },
     {
       id: 7,
-      image: IMG4,
-      title: "PokeRub",
-      dscription: t('ProjectRecube'),
-      github: "https://github.com/danrleyney2210/rubcube_desafio",
-      status: 'Produção'
+      image: IMG3,
+      title: "Just Travel",
+      description: t('ChallengeJusTravel'),
+      github: "https://github.com/danrleyney2210/challenge_logoipsum",
+      demo: "https://challenge-logoipsum.vercel.app/",
+      status: 'Live Demo',
+      category: 'web',
+      stack: ['React', 'JavaScript', 'Tailwind CSS'],
+      year: '2023'
     },
     {
       id: 8,
-      image: IMG5,
-      title: "Beta Store",
-      dscription: t('ApplicationEducation'),
-      github: "https://github.com/danrleyney2210/betastore_front",
-      demo: "https://betastore-front.vercel.app/",
-      status: 'Live Demo'
+      image: IMG4,
+      title: "PokeRub",
+      description: t('ProjectRecube'),
+      github: "https://github.com/danrleyney2210/rubcube_desafio",
+      status: 'Production',
+      category: 'mobile',
+      stack: ['React Native', 'TypeScript'],
+      year: '2023'
     },
     {
       id: 9,
-      image: IMG6,
-      title: "Landing Page",
-      dscription: t('ProjectConvert'),
-      github: "https://github.com/danrleyney2210/landing-page-01/tree/master",
-      demo: "https://metodo-mais-views.vercel.app/",
-      status: 'Live Demo'
+      image: IMG5,
+      title: "Beta Store",
+      description: t('ApplicationEducation'),
+      github: "https://github.com/danrleyney2210/betastore_front",
+      demo: "https://betastore-front.vercel.app/",
+      status: 'Live Demo',
+      category: 'fullstack',
+      stack: ['React', 'Node.js', 'MongoDB', 'TypeScript'],
+      year: '2023'
     },
     {
       id: 10,
-      image: IMG7,
-      title: t('NeuralNetworks'),
-      dscription: t('MasterEngineer'),
-      github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
-      status: 'Produção'
+      image: IMG6,
+      title: "Landing Page",
+      description: t('ProjectConvert'),
+      github: "https://github.com/danrleyney2210/landing-page-01/tree/master",
+      demo: "https://metodo-mais-views.vercel.app/",
+      status: 'Live Demo',
+      category: 'web',
+      stack: ['HTML', 'CSS', 'JavaScript'],
+      year: '2023'
     },
-
     {
       id: 11,
+      image: IMG7,
+      title: t('NeuralNetworks'),
+      description: t('MasterEngineer'),
+      github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
+      status: 'Production',
+      category: 'ai',
+      stack: ['R', 'Python', 'TensorFlow'],
+      year: '2022'
+    },
+    {
+      id: 12,
       image: IMG9,
       title: 'Star Wars',
-      dscription: t('starWras'),
+      description: t('starWras'),
       github: "https://github.com/danrleyney2210/start-wars-app",
       demo: "https://start-wars-app.vercel.app/",
-      status: 'Produção'
+      status: 'Production',
+      category: 'web',
+      stack: ['React', 'JavaScript', 'SWAPI'],
+      year: '2022'
     },
-
   ];
+
+  const filteredData = activeTab === 'all'
+    ? data
+    : data.filter((item: IDataProps) => item.category === activeTab);
 
   return (
     <S.Wrapper id="portfolio">
       <h5>{t('Work')}</h5>
       <h2>{t('Portfolio')}</h2>
 
+      <S.ProjectCount>
+        {activeTab === 'all'
+          ? `I've worked on ${data.length} projects`
+          : `Showing ${filteredData.length} ${activeTab} projects`
+        }
+      </S.ProjectCount>
+
+      <NavTab activeTab={activeTab} onTabChange={setActiveTab} />
+
       <S.PortfolioContainer className="container">
-        {data.map((item) => (
+        {filteredData.map((item) => (
           <article key={item.id} className="portfolio_item">
             <div className="portfolio_item_image">
               <img src={item.image} alt={item.title} />
             </div>
-            <div className="content_description">
+            <div className="portfolio_item_content">
               <h3>{item.title}</h3>
-              <p>{item.dscription}</p>
+              <p className="portfolio_item_description">{item.description}</p>
+              <div className="portfolio_item_stack">
+                {item.stack.map((tech, index) => (
+                  <S.TechTag key={index} techName={tech}>{tech}</S.TechTag>
+                ))}
+              </div>
             </div>
             <div className="portfolio_item_cta">
               {
                 item.github ? (
-                  <a href={item.github} className="btn" target={'_blank'}>Github</a>
+                  <a href={item.github} className="btn" target={'_blank'} rel="noopener noreferrer">Source Code</a>
                 ) : (
                   <S.LinkProject>
-                    Github
+                    Source Code
                     <AiOutlineStop />
                   </S.LinkProject>
                 )
@@ -168,18 +224,17 @@ export const Portfolio = () => {
                     href={item.demo}
                     className="btn btn-primary"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    {item.status}
+                    Live Demo
                   </a>
                 ) : (
                   <S.LinkProject>
-                    {item.status}
+                    Live Demo
                     <AiOutlineStop />
                   </S.LinkProject>
                 )
               }
-
-
             </div>
           </article>
         ))}
