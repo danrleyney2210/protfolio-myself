@@ -24,7 +24,7 @@ interface IDataProps {
   description?: string | any
   status?: string
   demo?: string
-  category: string;
+  category: string[];
   stack: string[];
   year: string;
 }
@@ -41,8 +41,8 @@ export const Portfolio = () => {
       description: t('projectBloom'),
       demo: "https://www.bloombyimpact.com/",
       status: 'Live',
-      category: 'web',
-      stack: ['React', 'TypeScript', 'Tailwind CSS'],
+      category: ['web', 'fullstack'],
+      stack: ['React', 'Next.js', 'TypeScript', 'Styled-components', 'AWS', 'typeORM', 'Nest.js'],
       year: '2024'
     },
     {
@@ -52,8 +52,8 @@ export const Portfolio = () => {
       description: t('projectSaas'),
       demo: "https://www.dexaki.com",
       status: 'Live',
-      category: 'web',
-      stack: ['React', 'Node.js', 'MongoDB'],
+      category: ['web', 'fullstack', 'mobile'],
+      stack: ['React', 'React Native', 'TypeScript', 'Node.js', 'Prisma', 'Nest.js', 'AWS', 'Stripe', 'styled-components'],
       year: '2024'
     },
     {
@@ -64,8 +64,8 @@ export const Portfolio = () => {
       demo: "https://coin-synch-a88d4swwl-danrleyney2210.vercel.app/",
       github: "https://github.com/danrleyney2210/CoinSynch",
       status: 'Live',
-      category: 'web',
-      stack: ['React', 'TypeScript', 'Tailwind CSS'],
+      category: ['web'],
+      stack: ['React', 'TypeScript', 'Sass', 'Next.js'],
       year: '2024'
     },
     {
@@ -75,8 +75,8 @@ export const Portfolio = () => {
       description: t('contribution'),
       demo: "https://opensolo.com/",
       status: 'Live',
-      category: 'web',
-      stack: ['Vue.js', 'JavaScript', 'CSS'],
+      category: ['web', 'fullstack'],
+      stack: ['React', 'TypeScript', 'styled-components', 'Java', 'Spring Boot', 'Nginx'],
       year: '2023'
     },
     {
@@ -86,7 +86,7 @@ export const Portfolio = () => {
       description: t('contribution'),
       demo: "https://app.neoestech.com.br/auth/login",
       status: 'Live',
-      category: 'web',
+      category: ['web'],
       stack: ['React', 'TypeScript', 'PostgreSQL'],
       year: '2023'
     },
@@ -97,8 +97,8 @@ export const Portfolio = () => {
       description: t('contribution'),
       demo: "https://www.aprepi.com",
       status: 'Live',
-      category: 'web',
-      stack: ['HTML', 'CSS', 'JavaScript'],
+      category: ['web', 'fullstack'],
+      stack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Prisma', 'PostgreSQL', 'VPS', 'Coolify'],
       year: '2023'
     },
     {
@@ -109,8 +109,8 @@ export const Portfolio = () => {
       github: "https://github.com/danrleyney2210/challenge_logoipsum",
       demo: "https://challenge-logoipsum.vercel.app/",
       status: 'Live Demo',
-      category: 'web',
-      stack: ['React', 'JavaScript', 'Tailwind CSS'],
+      category: ['web'],
+      stack: ['React', 'JavaScript', 'styled-components', 'Next.js'],
       year: '2023'
     },
     {
@@ -120,7 +120,7 @@ export const Portfolio = () => {
       description: t('ProjectRecube'),
       github: "https://github.com/danrleyney2210/rubcube_desafio",
       status: 'Production',
-      category: 'mobile',
+      category: ['mobile'],
       stack: ['React Native', 'TypeScript'],
       year: '2023'
     },
@@ -132,7 +132,7 @@ export const Portfolio = () => {
       github: "https://github.com/danrleyney2210/betastore_front",
       demo: "https://betastore-front.vercel.app/",
       status: 'Live Demo',
-      category: 'fullstack',
+      category: ['web', 'fullstack'],
       stack: ['React', 'Node.js', 'MongoDB', 'TypeScript'],
       year: '2023'
     },
@@ -144,8 +144,8 @@ export const Portfolio = () => {
       github: "https://github.com/danrleyney2210/landing-page-01/tree/master",
       demo: "https://metodo-mais-views.vercel.app/",
       status: 'Live Demo',
-      category: 'web',
-      stack: ['HTML', 'CSS', 'JavaScript'],
+      category: ['web'],
+      stack: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'],
       year: '2023'
     },
     {
@@ -155,8 +155,8 @@ export const Portfolio = () => {
       description: t('MasterEngineer'),
       github: "https://github.com/danrleyney2210/Redes_Neurais_em_R",
       status: 'Production',
-      category: 'ai',
-      stack: ['R', 'Python', 'TensorFlow'],
+      category: ['ai'],
+      stack: ['R', 'Python', 'TensorFlow', 'Master Engineer'],
       year: '2022'
     },
     {
@@ -167,7 +167,7 @@ export const Portfolio = () => {
       github: "https://github.com/danrleyney2210/start-wars-app",
       demo: "https://start-wars-app.vercel.app/",
       status: 'Production',
-      category: 'web',
+      category: ['web'],
       stack: ['React', 'JavaScript', 'SWAPI'],
       year: '2022'
     },
@@ -175,7 +175,7 @@ export const Portfolio = () => {
 
   const filteredData = activeTab === 'all'
     ? data
-    : data.filter((item: IDataProps) => item.category === activeTab);
+    : data.filter((item: IDataProps) => item.category.includes(activeTab));
 
   return (
     <S.Wrapper id="portfolio">
