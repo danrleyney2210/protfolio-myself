@@ -9,6 +9,7 @@ import { Portfolio } from '../../components/Organism/Portfolio'
 import { Services } from '../../components/Organism/Services'
 import { Testimonials } from '../../components/Organism/Testimonials'
 import { Articles } from '../../components/Organism/Articles'
+import { Timeline } from '../../components/Organism/Timeline'
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <Portfolio />
       <Articles />
       <About />
+      <Timeline />
       <Expirence />
       <Services />
       <Testimonials />

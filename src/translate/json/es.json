@@ -25,7 +25,7 @@
     "subtitle": "Acerca de mí",
     "experience": {
       "title": "Experiencia",
-      "years": "8+ Años trabajando"
+      "years": "+10 Años trabajando"
     },
     "clients": {
       "title": "Clientes",
@@ -44,6 +44,10 @@
       "contact": "Entrar en contacto",
       "download": "Descargar CV"
     }
+  },
+  "Timeline": {
+    "subtitle": "Mi trayectoria",
+    "title": "Empresas en las que trabajé"
   },
   "Experience": "Experiencia",
   "Years Working": "Años trabajando",
@@ -128,5 +132,30 @@
     }
   },
   "projectSaas": "Proyecto Sass desarrollado",
-  "projectBloom": "Desarrollo de la plataforma Bloom"
+  "projectBloom": "Desarrollo de la plataforma Bloom",
+  "Blog": {
+    "kicker": "Blog & Insights",
+    "title": "Reflexiones sobre Tech, IA & Carrera",
+    "subtitle": "Artículos y reflexiones sobre ingeniería de software, inteligencia artificial y cómo construir una carrera en tecnología.",
+    "readMore": "Leer artículo",
+    "back": "Volver",
+    "backToPortfolio": "Volver al portafolio",
+    "backToBlog": "Volver al blog",
+    "minRead": "min de lectura",
+    "relatedTitle": "Artículos relacionados",
+    "featured": "Destacado",
+    "latest": "Artículos recientes",
+    "empty": "Aún no hay artículos en esta categoría.",
+    "categories": {
+      "all": "Todos",
+      "ai": "IA",
+      "technology": "Tecnología",
+      "career": "Carrera",
+      "travel": "Viajes"
+    },
+    "notFound": {
+      "title": "Artículo no encontrado",
+      "description": "El artículo que buscas no existe o ha sido movido."
+    }
+  }
 }

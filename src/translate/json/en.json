@@ -107,7 +107,7 @@
     "subtitle": "About me",
     "experience": {
       "title": "Experience",
-      "years": "8+ Years Working"
+      "years": "+10 Years Working"
     },
     "clients": {
       "title": "Clients",
@@ -127,6 +127,35 @@
       "download": "Download CV"
     }
   },
+  "Timeline": {
+    "subtitle": "My career",
+    "title": "Companies I've worked for"
+  },
   "projectSaas": "Sass project developed",
-  "projectBloom": "Bloom platform development"
+  "projectBloom": "Bloom platform development",
+  "Blog": {
+    "kicker": "Blog & Insights",
+    "title": "Thoughts on Tech, AI & Career",
+    "subtitle": "Articles and reflections about software engineering, artificial intelligence and building a career in technology.",
+    "readMore": "Read article",
+    "back": "Back",
+    "backToPortfolio": "Back to portfolio",
+    "backToBlog": "Back to blog",
+    "minRead": "min read",
+    "relatedTitle": "Related articles",
+    "featured": "Featured",
+    "latest": "Latest articles",
+    "empty": "No articles in this category yet.",
+    "categories": {
+      "all": "All",
+      "ai": "AI",
+      "technology": "Technology",
+      "career": "Career",
+      "travel": "Travel"
+    },
+    "notFound": {
+      "title": "Article not found",
+      "description": "The article you are looking for does not exist or has been moved."
+    }
+  }
 }
