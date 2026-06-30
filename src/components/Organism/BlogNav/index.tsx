@@ -14,7 +14,7 @@ export const BlogNav = ({ backTo = "/" }: Props) => {
     <S.Wrapper>
       <S.Container className="container">
         <S.Brand to="/blog">
-          Danrley Ney<span className="dot">.</span>blog
+          Ney<span className="dot">.</span>blog
         </S.Brand>
         <S.BackLink to={backTo}>
           <FiArrowLeft /> {t("Blog.back")}
